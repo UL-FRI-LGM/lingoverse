@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 92338b45-3c89-4215-b6c0-ae3f934beb8f
+    PortName: Next
+    TargetNodeGUID: 0bcba992-ed52-4c7e-b972-844352de6ad0
+  - BaseNodeGUID: 0bcba992-ed52-4c7e-b972-844352de6ad0
+    PortName: Choice 1
+    TargetNodeGUID: d0539778-df6d-40a3-8116-d6019f981d4b
+  - BaseNodeGUID: d0539778-df6d-40a3-8116-d6019f981d4b
+    PortName: Sehr gut.
+    TargetNodeGUID: 7bb36589-9931-4722-9008-7e44499c4dca
+  - BaseNodeGUID: d0539778-df6d-40a3-8116-d6019f981d4b
+    PortName: Der Apfel
+    TargetNodeGUID: 8f0657d5-1c1f-4ef7-b31a-4c7e60d7aa33
+  DialogueNodeData:
+  - NodeGUID: 0bcba992-ed52-4c7e-b972-844352de6ad0
+    DialogueText: Hallo.
+    Position: {x: 248, y: 139}
+    AudioClip: {fileID: 8300000, guid: c75e01dfa3bbbcc4f9abebe75c98c222, type: 3}
+    allCorrect: 0
+  - NodeGUID: d0539778-df6d-40a3-8116-d6019f981d4b
+    DialogueText: Ich bin Otto. Wie geht's?
+    Position: {x: 531, y: 139}
+    AudioClip: {fileID: 8300000, guid: 703be6f6fcfca19438a3bfb5d97d3fc1, type: 3}
+    allCorrect: 0
+  - NodeGUID: 8f0657d5-1c1f-4ef7-b31a-4c7e60d7aa33
+    DialogueText: Was?
+    Position: {x: 928, y: 286}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+  - NodeGUID: 7bb36589-9931-4722-9008-7e44499c4dca
+    DialogueText: Das ist gut.
+    Position: {x: 928, y: 58}
+    AudioClip: {fileID: 8300000, guid: fa70bf10e19d17341b4a19bb49ce6e34, type: 3}
+    allCorrect: 0

@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Adelaide_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: 1ebb02a4-37e9-4d59-9ea5-4120859a2320
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Kannst du mir Eier machen?
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Mogen du mir Eier machen?
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Kannst ihr mir Eis machen?
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Mogen du mit Eier machen?
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Lecker
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Sharf
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "Su\xDF"
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Fade
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Was machen du zur Mittagessen?
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: "Was machen du zum Fr\xFChst\xFCck? "
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: "W\xFCrstchen"
+    TargetNodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Wassermelone
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: "W\xFCrstchen"
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Salz
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: "Kannst du mir auch W\xFCrstchen machen? "
+    TargetNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: "Kannst du mir auch W\xFCrst machen?"
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: "Kannst du mir auch W\xFCrstchen essen?"
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: 'Kannst du mir auch Fleisch machen? '
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Fisch
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Wurst
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 1ebb02a4-37e9-4d59-9ea5-4120859a2320
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Eier
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Banane
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Speiseeis
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Joghurt
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    PortName: Choice 1
+    TargetNodeGUID: 9fa81807-51d5-4474-9d76-c7dae5460720
+  - BaseNodeGUID: 9fa81807-51d5-4474-9d76-c7dae5460720
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 46a04b72-6180-471c-b809-24491b6c212c
+    PortName: Choice 1
+    TargetNodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+  - BaseNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    PortName: Choice 1
+    TargetNodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+  - BaseNodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+    PortName: Choice 1
+    TargetNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+  - BaseNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+    PortName: Choice 1
+    TargetNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+  - BaseNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  - BaseNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "Br\xF6tchen"
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Kase
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: "Was machst du zum Fr\xFChst\xFCck?"
+    TargetNodeGUID: 46a04b72-6180-471c-b809-24491b6c212c
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: 'Was machst du zum Mittagessen? '
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  DialogueNodeData:
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: '(Ask her if she can make you eggs) '
+    Position: {x: 1214, y: 138}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: "(Choose the word for \u201Cdelicious\u201D.) "
+    Position: {x: 3522, y: 158.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: '(Ask Adelaide what she will make herself for breakfast.) '
+    Position: {x: 4225.3335, y: 196.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    DialogueText: "(Choose the right word for \u201Csausages\u201D.)"
+    Position: {x: 5366, y: 198.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    DialogueText: '(Ask if she can make sausages for you as well.) '
+    Position: {x: 6150, y: 366}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    DialogueText: (Pick the word for bread)
+    Position: {x: 2229.3333, y: 125.99999}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 1ebb02a4-37e9-4d59-9ea5-4120859a2320
+    DialogueText: Guten Morgen. Magst du Eier?
+    Position: {x: 191.33333, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: 72fb0d84233ff8e4f9a94062ec9173d2, type: 3}
+    allCorrect: 0
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: '(Pick the for word eggs.) '
+    Position: {x: 537.3333, y: 138}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: (Das ist richtig)
+    Position: {x: 849.3333, y: 80.666664}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 849.3333, y: 246.00002}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: (Das ist richtig)
+    Position: {x: 1601.3334, y: 80.666664}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 1601.3334, y: 272}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: "Nat\xFCrlich. M\xF6chtest du auch ___?"
+    Position: {x: 1902, y: 126.666664}
+    AudioClip: {fileID: 8300000, guid: 1ec9a47e384a355469956abdd100aef2, type: 3}
+    allCorrect: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 2539.3333, y: 276.66666}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    DialogueText: Okay, ich mache dir Eier mit Brot.
+    Position: {x: 2827.3333, y: 184.66667}
+    AudioClip: {fileID: 8300000, guid: 0b3ffeae8c245594f93ab479dc3dce27, type: 3}
+    allCorrect: 0
+  - NodeGUID: 9fa81807-51d5-4474-9d76-c7dae5460720
+    DialogueText: 'Meine Eier sind sehr _______. '
+    Position: {x: 3185.3333, y: 184.66667}
+    AudioClip: {fileID: 8300000, guid: 5fa8759fa7355aa4cad40423a655668e, type: 3}
+    allCorrect: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: (Das ist richtig)
+    Position: {x: 3893.3333, y: 102.666664}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 3893.3333, y: 304}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: 46a04b72-6180-471c-b809-24491b6c212c
+    DialogueText: (Das ist richtig)
+    Position: {x: 4720, y: 142}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0
+  - NodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 4703.3335, y: 338.66666}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+    DialogueText: 'Heute esse ich ____ und Pfannkuchen. '
+    Position: {x: 4979.3335, y: 240.00002}
+    AudioClip: {fileID: 8300000, guid: 3dde1d38e52efe742923a6f1f2f83a84, type: 3}
+    allCorrect: 0
+  - NodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+    DialogueText: (Das ist richtig)
+    Position: {x: 5833.3335, y: 210.66667}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0
+  - NodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 5833.3335, y: 418}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    DialogueText: (Das ist richtig)
+    Position: {x: 6589.3335, y: 282.66666}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0
+  - NodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 6571.3335, y: 478.66666}
+    AudioClip: {fileID: 8300000, guid: 9e4543085f0e0f44aa6c9c39d09dac78, type: 3}
+    allCorrect: 0
+  - NodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+    DialogueText: "Ja! Das Fr\xFChst\xFCck ist in 10 Minuten fertig. "
+    Position: {x: 6921.3335, y: 376.66666}
+    AudioClip: {fileID: 8300000, guid: b47ed0acc7b5185428d3c03a7e2510c7, type: 3}
+    allCorrect: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: (Das ist richtig)
+    Position: {x: 2576, y: 44}
+    AudioClip: {fileID: 8300000, guid: 6e003b9bc6e01bb418aa1c4066734938, type: 3}
+    allCorrect: 0

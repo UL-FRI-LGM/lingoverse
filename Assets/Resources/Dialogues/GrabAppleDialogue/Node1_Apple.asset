@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2f0aacd747f1040a5b2d21b71c29a7, type: 3}
+  m_Name: Node1_Apple
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: Node1_Apple
+  dialogueText: {fileID: 11400000, guid: dd40110c30c414b4699ab9c29bf5f25a, type: 2}
+  canRestartOnFail: 0
+  nodes:
+  - {fileID: 11400000, guid: 33d1c8ec8419dd64cae89c93c44bb3b6, type: 2}
+  - {fileID: 11400000, guid: ba2254a1c7129d0408af6cd30a70f4f7, type: 2}
+  exp: 0
+  dialogueType: 0

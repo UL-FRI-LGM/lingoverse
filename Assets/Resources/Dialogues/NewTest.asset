@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: NewTest
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: dd736109-66d8-4515-836f-9fe704171719
+    PortName: Next
+    TargetNodeGUID: 737c6bce-ba2a-428d-accb-797887945dd0
+  - BaseNodeGUID: 737c6bce-ba2a-428d-accb-797887945dd0
+    PortName: Dobro.
+    TargetNodeGUID: 659975c9-3c61-4126-868e-fcc49d8282c5
+  - BaseNodeGUID: 737c6bce-ba2a-428d-accb-797887945dd0
+    PortName: Nikoli bolje.
+    TargetNodeGUID: 659975c9-3c61-4126-868e-fcc49d8282c5
+  - BaseNodeGUID: 737c6bce-ba2a-428d-accb-797887945dd0
+    PortName: Slabo.
+    TargetNodeGUID: f8baad47-9b97-4b9a-962a-61fc24069724
+  DialogueNodeData:
+  - NodeGUID: 659975c9-3c61-4126-868e-fcc49d8282c5
+    DialogueText: Lepo.
+    Position: {x: 592, y: -64}
+    AudioClip: {fileID: 8300000, guid: 81b8011b929207343adb9967e3a260bd, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 737c6bce-ba2a-428d-accb-797887945dd0
+    DialogueText: Dober dan. Kako smo danes?
+    Position: {x: 263, y: -18}
+    AudioClip: {fileID: 8300000, guid: ecf26b5e8a60e0047b53b01861d8136d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: f8baad47-9b97-4b9a-962a-61fc24069724
+    DialogueText: "\u0160koda."
+    Position: {x: 592, y: 244}
+    AudioClip: {fileID: 8300000, guid: c12c2e7e27d02f44ab7f695d4e24a7d1, type: 3}
+    allCorrect: 0
+    dialogueType: 0

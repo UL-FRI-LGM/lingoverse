@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Dieter
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 06c4fa91-429b-4a89-b395-b6ed829a9c27
+    PortName: Next
+    TargetNodeGUID: 2667b676-b0a5-4cfd-878d-c5c54ca14bac
+  - BaseNodeGUID: 2667b676-b0a5-4cfd-878d-c5c54ca14bac
+    PortName: Choice 1
+    TargetNodeGUID: a8974110-9ccb-4db5-9d91-171706f415fa
+  - BaseNodeGUID: a8974110-9ccb-4db5-9d91-171706f415fa
+    PortName: Ich bin [Name].
+    TargetNodeGUID: 749969d5-748c-4558-bbd6-3452b8fc0ab3
+  - BaseNodeGUID: a8974110-9ccb-4db5-9d91-171706f415fa
+    PortName: Ich sehen [Name].
+    TargetNodeGUID: 9268fad5-d1b0-421e-991a-51639fd7b080
+  - BaseNodeGUID: a8974110-9ccb-4db5-9d91-171706f415fa
+    PortName: Ich schreiben [Name].
+    TargetNodeGUID: 9268fad5-d1b0-421e-991a-51639fd7b080
+  - BaseNodeGUID: 9268fad5-d1b0-421e-991a-51639fd7b080
+    PortName: Choice 1
+    TargetNodeGUID: ccaad560-a737-4bac-8c6f-306e4bf35186
+  - BaseNodeGUID: 749969d5-748c-4558-bbd6-3452b8fc0ab3
+    PortName: Choice 1
+    TargetNodeGUID: ccaad560-a737-4bac-8c6f-306e4bf35186
+  - BaseNodeGUID: ccaad560-a737-4bac-8c6f-306e4bf35186
+    PortName: Choice 1
+    TargetNodeGUID: 813ae4a3-84cd-4f04-865f-e56bff2ea15e
+  - BaseNodeGUID: 813ae4a3-84cd-4f04-865f-e56bff2ea15e
+    PortName: Cooks
+    TargetNodeGUID: 961bdfc5-aca6-404f-929e-412e2a8aa8da
+  - BaseNodeGUID: 813ae4a3-84cd-4f04-865f-e56bff2ea15e
+    PortName: Swims
+    TargetNodeGUID: ff0ed8a2-6573-4139-9c09-250f8aad358f
+  - BaseNodeGUID: 813ae4a3-84cd-4f04-865f-e56bff2ea15e
+    PortName: Doctor
+    TargetNodeGUID: ff0ed8a2-6573-4139-9c09-250f8aad358f
+  - BaseNodeGUID: 813ae4a3-84cd-4f04-865f-e56bff2ea15e
+    PortName: Police officer
+    TargetNodeGUID: ff0ed8a2-6573-4139-9c09-250f8aad358f
+  - BaseNodeGUID: ff0ed8a2-6573-4139-9c09-250f8aad358f
+    PortName: Choice 1
+    TargetNodeGUID: 8654f151-22ed-4c21-9fbc-0a4135043aa6
+  - BaseNodeGUID: 961bdfc5-aca6-404f-929e-412e2a8aa8da
+    PortName: Choice 1
+    TargetNodeGUID: 8654f151-22ed-4c21-9fbc-0a4135043aa6
+  - BaseNodeGUID: 8654f151-22ed-4c21-9fbc-0a4135043aa6
+    PortName: Choice 1
+    TargetNodeGUID: f0123131-8706-4215-a744-c11c500984fa
+  - BaseNodeGUID: f0123131-8706-4215-a744-c11c500984fa
+    PortName: Welche Farbe hat Max?
+    TargetNodeGUID: 22c37e0b-52c1-4b47-a24c-b6fa3735b033
+  - BaseNodeGUID: f0123131-8706-4215-a744-c11c500984fa
+    PortName: Wie alt ist Max?
+    TargetNodeGUID: 86378c79-6e9d-4069-bb62-d82c65fd70a2
+  - BaseNodeGUID: f0123131-8706-4215-a744-c11c500984fa
+    PortName: Welche Farbe war Max?
+    TargetNodeGUID: 86378c79-6e9d-4069-bb62-d82c65fd70a2
+  - BaseNodeGUID: 86378c79-6e9d-4069-bb62-d82c65fd70a2
+    PortName: Choice 1
+    TargetNodeGUID: e7752cac-2966-427f-b674-7a9b9576d510
+  - BaseNodeGUID: 22c37e0b-52c1-4b47-a24c-b6fa3735b033
+    PortName: Choice 1
+    TargetNodeGUID: e7752cac-2966-427f-b674-7a9b9576d510
+  - BaseNodeGUID: e7752cac-2966-427f-b674-7a9b9576d510
+    PortName: Choice 1
+    TargetNodeGUID: a0ae9330-75cb-4212-8ba2-6b81ab1cca26
+  - BaseNodeGUID: a0ae9330-75cb-4212-8ba2-6b81ab1cca26
+    PortName: Wo schwimmst du?
+    TargetNodeGUID: 680b9bab-dadb-4012-9beb-f8f0da2fbc5b
+  - BaseNodeGUID: a0ae9330-75cb-4212-8ba2-6b81ab1cca26
+    PortName: Warum schwimmst du?
+    TargetNodeGUID: 9f5073c8-fd67-44e9-8fa9-8319e53fdc78
+  - BaseNodeGUID: a0ae9330-75cb-4212-8ba2-6b81ab1cca26
+    PortName: Magst du schwimmen?
+    TargetNodeGUID: 9f5073c8-fd67-44e9-8fa9-8319e53fdc78
+  DialogueNodeData:
+  - NodeGUID: 813ae4a3-84cd-4f04-865f-e56bff2ea15e
+    DialogueText: (What does Dieter do?)
+    Position: {x: 1623.3334, y: 248.00002}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: ff0ed8a2-6573-4139-9c09-250f8aad358f
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 1926, y: 360}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: f0123131-8706-4215-a744-c11c500984fa
+    DialogueText: (Ask Dieter what color his dog is)
+    Position: {x: 2495.3333, y: 297.3333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: a0ae9330-75cb-4212-8ba2-6b81ab1cca26
+    DialogueText: (Ask Dieter where he swims)
+    Position: {x: 3866.6667, y: 338.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 2667b676-b0a5-4cfd-878d-c5c54ca14bac
+    DialogueText: Guten Abend, mein Name ist Dieter.
+    Position: {x: 205.33333, y: 200}
+    AudioClip: {fileID: 8300000, guid: a15205fd7f972a146b14bb6562e5eed9, type: 3}
+    allCorrect: 0
+  - NodeGUID: a8974110-9ccb-4db5-9d91-171706f415fa
+    DialogueText: Und wie ist dein Name?
+    Position: {x: 567.3333, y: 200}
+    AudioClip: {fileID: 8300000, guid: c6237f2711f531a45b92d671c7731a91, type: 3}
+    allCorrect: 0
+  - NodeGUID: 749969d5-748c-4558-bbd6-3452b8fc0ab3
+    DialogueText: "Sch\xF6n, dich zu treffen, [Name]."
+    Position: {x: 942, y: 154.66667}
+    AudioClip: {fileID: 8300000, guid: 0c2ed36d243aca444a47555887f263cb, type: 3}
+    allCorrect: 0
+  - NodeGUID: 9268fad5-d1b0-421e-991a-51639fd7b080
+    DialogueText: Das stimmt nicht ganz. (You chose the wrong answer)
+    Position: {x: 874, y: 330.66666}
+    AudioClip: {fileID: 8300000, guid: d70c7a45cfb11c94b8361e4f60bbbc77, type: 3}
+    allCorrect: 0
+  - NodeGUID: ccaad560-a737-4bac-8c6f-306e4bf35186
+    DialogueText: Ich arbeite als Koch.
+    Position: {x: 1346.6666, y: 248.00002}
+    AudioClip: {fileID: 8300000, guid: 72403fd4bb49b8d46be383f023973a87, type: 3}
+    allCorrect: 0
+  - NodeGUID: 961bdfc5-aca6-404f-929e-412e2a8aa8da
+    DialogueText: (Das ist richtig)
+    Position: {x: 1926, y: 184}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 8654f151-22ed-4c21-9fbc-0a4135043aa6
+    DialogueText: "Mein Hund hei\xDFt Max."
+    Position: {x: 2196.6667, y: 297.3333}
+    AudioClip: {fileID: 8300000, guid: 53e4a0d6bf895ef4d9deccd4fe8c62c5, type: 3}
+    allCorrect: 0
+  - NodeGUID: 86378c79-6e9d-4069-bb62-d82c65fd70a2
+    DialogueText: Das ist nicht die Frage, die ich erwartet habe. (You chose the
+      wrong answer, try again)
+    Position: {x: 2851.3333, y: 442}
+    AudioClip: {fileID: 8300000, guid: f74a1435d1a728540a01327fee6046c4, type: 3}
+    allCorrect: 0
+  - NodeGUID: 22c37e0b-52c1-4b47-a24c-b6fa3735b033
+    DialogueText: "Max ist schwarz und wei\xDF."
+    Position: {x: 3025.3333, y: 256}
+    AudioClip: {fileID: 8300000, guid: 3d328631691ab3a428af72ff75ceeadd, type: 3}
+    allCorrect: 0
+  - NodeGUID: e7752cac-2966-427f-b674-7a9b9576d510
+    DialogueText: Im Sommer gehe ich oft schwimmen.
+    Position: {x: 3507.3333, y: 338.66666}
+    AudioClip: {fileID: 8300000, guid: 537903c8ba1a4ce41b2889e108526622, type: 3}
+    allCorrect: 0
+  - NodeGUID: 9f5073c8-fd67-44e9-8fa9-8319e53fdc78
+    DialogueText: Das passt nicht zu meiner Aussage. (You chose the wrong answer,
+      try again)
+    Position: {x: 4196, y: 451.3333}
+    AudioClip: {fileID: 8300000, guid: f74a1435d1a728540a01327fee6046c4, type: 3}
+    allCorrect: 0
+  - NodeGUID: 680b9bab-dadb-4012-9beb-f8f0da2fbc5b
+    DialogueText: Ich schwimme am liebsten im See.
+    Position: {x: 4298, y: 273.3333}
+    AudioClip: {fileID: 8300000, guid: 10801f04fc3547e4686c1ff75031db37, type: 3}
+    allCorrect: 0

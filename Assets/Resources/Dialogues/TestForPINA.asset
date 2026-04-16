@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: TestForPINA
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    PortName: Next
+    TargetNodeGUID: bf0d55aa-734e-46fa-b02a-1a9dcb626567
+  DialogueNodeData:
+  - NodeGUID: bf0d55aa-734e-46fa-b02a-1a9dcb626567
+    DialogueText: Dialogue Node
+    Position: {x: 313, y: 269}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0

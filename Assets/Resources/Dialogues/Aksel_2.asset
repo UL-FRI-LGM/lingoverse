@@ -1,0 +1,413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Aksel_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: f402ec42-9b15-4a43-80fb-969fe2dff572
+  - BaseNodeGUID: f402ec42-9b15-4a43-80fb-969fe2dff572
+    PortName: Choice 1
+    TargetNodeGUID: 46efb3ae-e163-447a-9cd6-2c11308d5d36
+  - BaseNodeGUID: 46efb3ae-e163-447a-9cd6-2c11308d5d36
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 9b8e081e-f4a1-4664-9db3-76855f9042f3
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 9b8e081e-f4a1-4664-9db3-76855f9042f3
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Was kochst du zum Abendessen? '
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Was kocht du zum Abendessen?
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Was kannst du zum Abendessen? '
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Was kochst Sie zum Abendessen? '
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 9b8e081e-f4a1-4664-9db3-76855f9042f3
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: koche
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: kochst
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: kuchen
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: kuche
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Kesi
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "K\xE4iser"
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "K\xE4se"
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Messi
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "M\xF6chtest du Gem\xFCse auf deiner Pizza? "
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "M\xF6chtest du Obst auf deiner Pizza?"
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "Konntest du Gem\xFCse auf deiner Pizza?"
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: b00382d3-fbb2-4273-912c-16f0d3ddb37a
+  - BaseNodeGUID: 46a04b72-6180-471c-b809-24491b6c212c
+    PortName: Choice 1
+    TargetNodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+  - BaseNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    PortName: Choice 1
+    TargetNodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Karotten und Erbsen
+    TargetNodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: 'Nudeln und Karotten '
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Karotte und Erbsen
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Reis
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: b00382d3-fbb2-4273-912c-16f0d3ddb37a
+  - BaseNodeGUID: b00382d3-fbb2-4273-912c-16f0d3ddb37a
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+    PortName: Choice 1
+    TargetNodeGUID: 3fc10306-fb59-4769-87f2-9fc40ae3f5c5
+  - BaseNodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+    PortName: Choice 1
+    TargetNodeGUID: 3fc10306-fb59-4769-87f2-9fc40ae3f5c5
+  - BaseNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  - BaseNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  - BaseNodeGUID: 3fc10306-fb59-4769-87f2-9fc40ae3f5c5
+    PortName: Choice 1
+    TargetNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: unappetitlich
+    TargetNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: lecker
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: sauer
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: scharf
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+    PortName: Choice 1
+    TargetNodeGUID: 615e2ae6-5802-4e30-9e53-dcae8a9875cb
+  - BaseNodeGUID: 615e2ae6-5802-4e30-9e53-dcae8a9875cb
+    PortName: "M\xF6chtest du Bier? "
+    TargetNodeGUID: 94461a88-dcda-4365-943f-88df444e3b87
+  - BaseNodeGUID: 615e2ae6-5802-4e30-9e53-dcae8a9875cb
+    PortName: "M\xF6chtest du Wasser? "
+    TargetNodeGUID: 4809b701-36e0-4dca-ba87-649e673e94c0
+  - BaseNodeGUID: 615e2ae6-5802-4e30-9e53-dcae8a9875cb
+    PortName: "M\xF6chtest du Beer?"
+    TargetNodeGUID: 4809b701-36e0-4dca-ba87-649e673e94c0
+  - BaseNodeGUID: 615e2ae6-5802-4e30-9e53-dcae8a9875cb
+    PortName: "M\xF6chtest du Tee? "
+    TargetNodeGUID: 4809b701-36e0-4dca-ba87-649e673e94c0
+  - BaseNodeGUID: 94461a88-dcda-4365-943f-88df444e3b87
+    PortName: Choice 1
+    TargetNodeGUID: c1477946-18ca-4a5e-a8ee-aa969afa7055
+  - BaseNodeGUID: 4809b701-36e0-4dca-ba87-649e673e94c0
+    PortName: Choice 1
+    TargetNodeGUID: c1477946-18ca-4a5e-a8ee-aa969afa7055
+  - BaseNodeGUID: c1477946-18ca-4a5e-a8ee-aa969afa7055
+    PortName: Choice 1
+    TargetNodeGUID: 72872675-5051-42d5-b227-551184af9ff0
+  - BaseNodeGUID: 72872675-5051-42d5-b227-551184af9ff0
+    PortName: Saft
+    TargetNodeGUID: 149ebc47-c96d-4a6b-bf2b-f91a608fa5a7
+  - BaseNodeGUID: 72872675-5051-42d5-b227-551184af9ff0
+    PortName: Wasser
+    TargetNodeGUID: c2e49478-7d07-4b2f-9a19-92045f83a276
+  - BaseNodeGUID: 72872675-5051-42d5-b227-551184af9ff0
+    PortName: Cola
+    TargetNodeGUID: c2e49478-7d07-4b2f-9a19-92045f83a276
+  - BaseNodeGUID: 72872675-5051-42d5-b227-551184af9ff0
+    PortName: Bier
+    TargetNodeGUID: c2e49478-7d07-4b2f-9a19-92045f83a276
+  - BaseNodeGUID: 149ebc47-c96d-4a6b-bf2b-f91a608fa5a7
+    PortName: Choice 1
+    TargetNodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+  - BaseNodeGUID: c2e49478-7d07-4b2f-9a19-92045f83a276
+    PortName: Choice 1
+    TargetNodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+  - BaseNodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+    PortName: Guten appetit
+    TargetNodeGUID: e6e9b38c-468c-418b-ae69-081e98095199
+  - BaseNodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+    PortName: Guten Morgen
+    TargetNodeGUID: 81a3ea7e-ce50-49fd-ab4f-670ab647d339
+  - BaseNodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+    PortName: Zum Spater
+    TargetNodeGUID: 81a3ea7e-ce50-49fd-ab4f-670ab647d339
+  - BaseNodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+    PortName: Bis bald
+    TargetNodeGUID: 81a3ea7e-ce50-49fd-ab4f-670ab647d339
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Schinken
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: "Br\xF6tchen"
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Tomaten
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Kartoffeln
+    TargetNodeGUID: 46a04b72-6180-471c-b809-24491b6c212c
+  DialogueNodeData:
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 1423, y: 284}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: (Das ist richtig)
+    Position: {x: 2453, y: 113}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 2453, y: 305}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: "(Insert the right conjugation of the verb \u201Ccook\u201D.) "
+    Position: {x: 2018, y: 186}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    DialogueText: "(Choose the correct word for \u201Ccheese\u201D.) "
+    Position: {x: 3351, y: 160}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: (Das ist richtig)
+    Position: {x: 3775, y: 57}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 3775, y: 290}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: '(Ask Aksel if he wants any vegetables on his pizza.) '
+    Position: {x: 4191, y: 160}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 4716, y: 326}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 46a04b72-6180-471c-b809-24491b6c212c
+    DialogueText: (Das ist richtig)
+    Position: {x: 5910, y: 154}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 5910, y: 364}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    DialogueText: "(Insert the correct words for \u201Ccarrots and peas\u201D.) "
+    Position: {x: 6573, y: 225}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: (Das ist richtig)
+    Position: {x: 4716, y: 125}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 7045, y: 344}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+    DialogueText: (Das ist richtig)
+    Position: {x: 7063, y: 142}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 8187, y: 306}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    DialogueText: (Das ist richtig)
+    Position: {x: 8205, y: 111}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    DialogueText: "(Insert the correct word for \u201Cunappetizing\u201D.) "
+    Position: {x: 7735, y: 193}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 615e2ae6-5802-4e30-9e53-dcae8a9875cb
+    DialogueText: '(Ask Aksel if he would like some beer.) '
+    Position: {x: 8887, y: 204}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 94461a88-dcda-4365-943f-88df444e3b87
+    DialogueText: (Das ist richtig)
+    Position: {x: 9304, y: 111}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4809b701-36e0-4dca-ba87-649e673e94c0
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 9304, y: 333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 72872675-5051-42d5-b227-551184af9ff0
+    DialogueText: "(Insert the correct word for \u201Cjuice\u201D.) "
+    Position: {x: 10125, y: 213}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 149ebc47-c96d-4a6b-bf2b-f91a608fa5a7
+    DialogueText: (Das ist richtig)
+    Position: {x: 10595, y: 168}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: c2e49478-7d07-4b2f-9a19-92045f83a276
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 10595, y: 343}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: bc0b856d-c619-4826-aefc-7eb7cca50b52
+    DialogueText: '(Wish Aksel bon appetit.) '
+    Position: {x: 10944, y: 261}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: "(Insert the correct word for \u201Cpotatoes\u201D.) "
+    Position: {x: 5484, y: 222}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: f402ec42-9b15-4a43-80fb-969fe2dff572
+    DialogueText: Hallo, ich habe Hunger, aber wir haben keine Lebensmittel.
+    Position: {x: 191, y: 163}
+    AudioClip: {fileID: 8300000, guid: 1c45d34949113bb4faf08bd2c423fdc9, type: 3}
+    allCorrect: 0
+  - NodeGUID: 46efb3ae-e163-447a-9cd6-2c11308d5d36
+    DialogueText: Wir haben nur Salz und Pfeffer.
+    Position: {x: 678, y: 163}
+    AudioClip: {fileID: 8300000, guid: f08a90938d761cc4ebc8fdd5619255d4, type: 3}
+    allCorrect: 0
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: '(Ask Aksel what he is cooking for dinner.) '
+    Position: {x: 1021, y: 171}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: (Das ist richtig)
+    Position: {x: 1423, y: 105}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 9b8e081e-f4a1-4664-9db3-76855f9042f3
+    DialogueText: 'Ich ___ eine Pizza. '
+    Position: {x: 1751, y: 196}
+    AudioClip: {fileID: 8300000, guid: ed4ae2ce5b293214089b78b012354685, type: 3}
+    allCorrect: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: "F\xFCr meine Pizza muss ich Mehl, Tomatenso\xDFe, Wurst und was
+      noch kaufen? "
+    Position: {x: 2753, y: 160}
+    AudioClip: {fileID: 8300000, guid: 38a6366180449a142a8d7df7844fd648, type: 3}
+    allCorrect: 0
+  - NodeGUID: b00382d3-fbb2-4273-912c-16f0d3ddb37a
+    DialogueText: "Nein, ich mag kein Gem\xFCse. Ich esse nur __________."
+    Position: {x: 4995, y: 237}
+    AudioClip: {fileID: 8300000, guid: 4b312a2323aab3549a684d02ac069e79, type: 3}
+    allCorrect: 0
+  - NodeGUID: b0e57db1-0a5a-492b-9bfd-4ab7e3b92429
+    DialogueText: 'Und ich hasse _____________________. '
+    Position: {x: 6185, y: 265}
+    AudioClip: {fileID: 8300000, guid: 9b2b76e47f54311438b494ef2f59361e, type: 3}
+    allCorrect: 0
+  - NodeGUID: 3fc10306-fb59-4769-87f2-9fc40ae3f5c5
+    DialogueText: 'Auch frische Tomaten sind __________. '
+    Position: {x: 7349, y: 223}
+    AudioClip: {fileID: 8300000, guid: 36935d7c3fe66c74dba6b18490f67443, type: 3}
+    allCorrect: 0
+  - NodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+    DialogueText: 'Ich werde vielleicht etwas trinken. '
+    Position: {x: 8536, y: 204}
+    AudioClip: {fileID: 8300000, guid: b70212a5ad5c1e34282a014e70457940, type: 3}
+    allCorrect: 0
+  - NodeGUID: c1477946-18ca-4a5e-a8ee-aa969afa7055
+    DialogueText: 'Nein, ich trinke kein Bier. Ich werde etwas ___ kaufen. '
+    Position: {x: 9634, y: 193}
+    AudioClip: {fileID: 8300000, guid: 6c442a4e1288e614ab46ef4bd217a025, type: 3}
+    allCorrect: 0
+  - NodeGUID: e6e9b38c-468c-418b-ae69-081e98095199
+    DialogueText: Danke! Ich gehe jetzt zum Lebensmittelladen, auf Wiedersehen.
+    Position: {x: 11296, y: 213}
+    AudioClip: {fileID: 8300000, guid: dd53fe1f5727d724fb2ea812169d9900, type: 3}
+    allCorrect: 0
+  - NodeGUID: 81a3ea7e-ce50-49fd-ab4f-670ab647d339
+    DialogueText: Was? Ich gehe jetzt zum Lebensmittelladen, auf Wiedersehen.
+    Position: {x: 11296, y: 415}
+    AudioClip: {fileID: 8300000, guid: 4add1255f025fb343950bba5d2e7a0e6, type: 3}
+    allCorrect: 0

@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Bjorn_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 16a53732-1aa9-4499-9f08-19b0163a0435
+    PortName: Next
+    TargetNodeGUID: d2781ac4-ebb8-44d3-9ccb-c1eff0c7efdf
+  - BaseNodeGUID: b3d598a0-a342-4d02-b6ec-3eb25f22f808
+    PortName: Dienstag und Donnerstag
+    TargetNodeGUID: d3f6360f-a130-4da8-9028-87b89987ca0b
+  - BaseNodeGUID: b3d598a0-a342-4d02-b6ec-3eb25f22f808
+    PortName: Montag und Dienstag
+    TargetNodeGUID: d3f6360f-a130-4da8-9028-87b89987ca0b
+  - BaseNodeGUID: b3d598a0-a342-4d02-b6ec-3eb25f22f808
+    PortName: "T\xE4glich"
+    TargetNodeGUID: c19a4b4b-356b-4ccf-b200-41467254102e
+  - BaseNodeGUID: b3d598a0-a342-4d02-b6ec-3eb25f22f808
+    PortName: Freitag
+    TargetNodeGUID: d3f6360f-a130-4da8-9028-87b89987ca0b
+  - BaseNodeGUID: c19a4b4b-356b-4ccf-b200-41467254102e
+    PortName: Choice 1
+    TargetNodeGUID: 46b10042-314c-46b2-841a-82a8d471a5a2
+  - BaseNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+    PortName: Choice 1
+    TargetNodeGUID: b3d598a0-a342-4d02-b6ec-3eb25f22f808
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: d3f6360f-a130-4da8-9028-87b89987ca0b
+    PortName: Choice 1
+    TargetNodeGUID: 46b10042-314c-46b2-841a-82a8d471a5a2
+  - BaseNodeGUID: d2781ac4-ebb8-44d3-9ccb-c1eff0c7efdf
+    PortName: Choice 1
+    TargetNodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+  - BaseNodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Welche Sprache lernst du? '
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Wann lernst du Sprachen? '
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Warum lernst du Sprachen? '
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 'Wo lernst du Sprachen? '
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Lila
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Orange
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Rosa
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Blau
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "M\xFCssen (muss)"
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Wollen (will)
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Sollen (soll)
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "D\xFCrfen (darf)"
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "K\xF6nnen"
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Sollen
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Wollen
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "D\xFCrfen"
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Was ist dein Lieblingsfach
+    TargetNodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Was ist dein Lieblingsteam
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Was ist dein Lieblingstier
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Schultasche
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Radiergummi
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Schlafenzimmer
+    TargetNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Klassenzimmer
+    TargetNodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+  - BaseNodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+    PortName: Choice 1
+    TargetNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+  - BaseNodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+    PortName: Choice 1
+    TargetNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: Welcher Tag ist Geschichte
+    TargetNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: Warum Tag ist Geschichte
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: "Wohin T\xE4ger ist Geographie"
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: Welcher Tag ist Geographie
+    TargetNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+  - BaseNodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  - BaseNodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  DialogueNodeData:
+  - NodeGUID: d2781ac4-ebb8-44d3-9ccb-c1eff0c7efdf
+    DialogueText: Hej!
+    Position: {x: 199, y: 200}
+    AudioClip: {fileID: 8300000, guid: 0da2810d133dc1e40bc3f353f1fe6d77, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: b3d598a0-a342-4d02-b6ec-3eb25f22f808
+    DialogueText: "(On which days would Bj\xF6rn like to have History classes?) "
+    Position: {x: 8755, y: 381}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 46b10042-314c-46b2-841a-82a8d471a5a2
+    DialogueText: 'Ich muss jetzt zu meinem Geschichtsunterricht. Auf Wiedersehen! '
+    Position: {x: 9623, y: 395}
+    AudioClip: {fileID: 8300000, guid: c38a54f42052a2f4b831d5ab4ced9d5f, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c19a4b4b-356b-4ccf-b200-41467254102e
+    DialogueText: (Das ist richtig)
+    Position: {x: 9278, y: 272}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+    DialogueText: Wir haben dienstags und donnerstags Geschichte. Aber ich denke,
+      wir sollten es jeden Tag haben.
+    Position: {x: 7974, y: 381}
+    AudioClip: {fileID: 8300000, guid: 593cde0bd8da51141aa660e798214280, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: d3f6360f-a130-4da8-9028-87b89987ca0b
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 9260, y: 463}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 910b495c-5a20-463f-9c46-1b90f8037403
+    DialogueText: (Das ist richtig)
+    Position: {x: 7577, y: 269}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 18774a5e-e6a9-49c0-8471-53db98e69389
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 7559, y: 463}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+    DialogueText: Geschichte habe ich am liebsten, auch das Klassenzimmer ist toll.
+    Position: {x: 5839, y: 155}
+    AudioClip: {fileID: 8300000, guid: bd481eba5c0ef8242b761d1eb0b15569, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    DialogueText: Was?
+    Position: {x: 5941, y: 341}
+    AudioClip: {fileID: 8300000, guid: 8ba88d4b0266eed458b30b31a661fbbd, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    DialogueText: "(Say the correct word for \u201Cclassroom\u201D.) "
+    Position: {x: 6403, y: 269}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 1948d11a-4aad-443c-a2ba-4d43ceb77c97
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 6843, y: 423}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 53645d1c-fa0c-4edd-830c-b8d427debdb1
+    DialogueText: (Das ist richtig)
+    Position: {x: 6843, y: 216}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    DialogueText: '(Ask which day History class is.) '
+    Position: {x: 7206, y: 293}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: "(Ask Bj\xF6rn which language he is learning.) "
+    Position: {x: 944, y: 200}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: (Das ist richtig)
+    Position: {x: 1377, y: 113}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 1377, y: 289}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: Ich lerne Englisch. Mein Englisch-Notizbuch ist lila.
+    Position: {x: 1702, y: 163}
+    AudioClip: {fileID: 8300000, guid: 33e8db5f15347a24ea0f537d3633c9f7, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: (Das ist richtig)
+    Position: {x: 3733, y: 29}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 3733, y: 262}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: "(Say the right translation for \u201Cpurple\u201D.) "
+    Position: {x: 2150, y: 147}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: "Ich m\xF6chte mehr Sprachen lernen."
+    Position: {x: 2883, y: 141}
+    AudioClip: {fileID: 8300000, guid: 8797a7e53be0ce842b6e8b1ec97a2013, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 2582, y: 285}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: (Das ist richtig)
+    Position: {x: 2582, y: 93}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    DialogueText: 'Ich ___ auch Spanisch lernen, denn meine Oma spricht nur Spanisch. '
+    Position: {x: 4078, y: 144}
+    AudioClip: {fileID: 8300000, guid: fe461ef469f71e34f8d09f93f1d778f8, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: "(Say the correct verb for \u201Cmust\u201D.) "
+    Position: {x: 4636, y: 144}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    DialogueText: "(Say the correct verb for \u201Cwant\u201D.) "
+    Position: {x: 3283, y: 144}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: (Das ist richtig)
+    Position: {x: 5052, y: 113}
+    AudioClip: {fileID: 8300000, guid: 13eb3af67a31063468d2fee5d697e941, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 5052, y: 315}
+    AudioClip: {fileID: 8300000, guid: 174c35dfd25c3d5438d9e10b5d49fd86, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: "(Ask Bj\xF6rn which is his favourite class subject?) "
+    Position: {x: 5391, y: 213}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+    DialogueText: Heute ist Mittwoch. Ich habe Sprachunterricht.
+    Position: {x: 523, y: 200}
+    AudioClip: {fileID: 8300000, guid: 31392ecf00f4100468510a9f1650c5e2, type: 3}
+    allCorrect: 0
+    dialogueType: 0

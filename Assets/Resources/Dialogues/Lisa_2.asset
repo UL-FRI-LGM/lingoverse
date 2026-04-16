@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Lisa_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: b378f2f3-87f9-4af5-a424-2de0e02b1cd6
+  - BaseNodeGUID: b378f2f3-87f9-4af5-a424-2de0e02b1cd6
+    PortName: Choice 1
+    TargetNodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+  - BaseNodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+    PortName: Choice 1
+    TargetNodeGUID: f94859da-106a-42f4-ad86-e16c9481be95
+  - BaseNodeGUID: f94859da-106a-42f4-ad86-e16c9481be95
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: "Herzlichen Gl\xFCckwunsch zum Geburtstag"
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: "Frohes Jubil\xE4um"
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Guten Appetit
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Gute Nacht
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Wer grillt?
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Wo grille?
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Wann grillen?
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Warum grillt?
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Choice 1
+    TargetNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: "Ja, nat\xFCrlich"
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: Nein, danke
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: "Nein nat\xFCrlich"
+    TargetNodeGUID: e1cbdd1c-1c13-4a23-86c5-dff6d0f42c28
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: Ja, ich bin [Name]
+    TargetNodeGUID: e1cbdd1c-1c13-4a23-86c5-dff6d0f42c28
+  - BaseNodeGUID: e1cbdd1c-1c13-4a23-86c5-dff6d0f42c28
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Computer
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Stuhl
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Kugelschreiber
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Buch
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  DialogueNodeData:
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: (Wish Lisa a happy birthday)
+    Position: {x: 1238, y: 151}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: "(Ask Lisa who\u2019s grilling?)"
+    Position: {x: 2218, y: 147}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    DialogueText: '(Answer Lisa that you are coming) '
+    Position: {x: 3307, y: 177}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: b378f2f3-87f9-4af5-a424-2de0e02b1cd6
+    DialogueText: Hi. [Name].
+    Position: {x: 191, y: 163}
+    AudioClip: {fileID: 8300000, guid: e70fd86b8bdaa184bb68e47aa241bc8c, type: 3}
+    allCorrect: 0
+  - NodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+    DialogueText: Was machst du am Samstag?
+    Position: {x: 457, y: 163}
+    AudioClip: {fileID: 8300000, guid: 780e63337d0aabf42b86c81a369237af, type: 3}
+    allCorrect: 0
+  - NodeGUID: f94859da-106a-42f4-ad86-e16c9481be95
+    DialogueText: Willst du zu meiner Geburtstagsfeier kommen?
+    Position: {x: 769, y: 163}
+    AudioClip: {fileID: 8300000, guid: 0321fa05d688a4d41a3580b2a0b7ac05, type: 3}
+    allCorrect: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: Danke
+    Position: {x: 1573, y: 81}
+    AudioClip: {fileID: 8300000, guid: 0b19902bf223baf48bba4586455bb879, type: 3}
+    allCorrect: 0
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: Was?
+    Position: {x: 1573, y: 246}
+    AudioClip: {fileID: 8300000, guid: d4865d4e81818864393c41a3edec485f, type: 3}
+    allCorrect: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: Ich plane eine Grillparty.
+    Position: {x: 1905, y: 151}
+    AudioClip: {fileID: 8300000, guid: c5e5d7d667afe73488e85bd544ddb2c7, type: 3}
+    allCorrect: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: Das ist richtig
+    Position: {x: 2537, y: 130}
+    AudioClip: {fileID: 8300000, guid: f5e6dafcf3f76d141ae8ac68e9e4cb1d, type: 3}
+    allCorrect: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: Das ist nicht richtig
+    Position: {x: 2537, y: 321}
+    AudioClip: {fileID: 8300000, guid: b3d9197a72b815d4c99b9510649a478a, type: 3}
+    allCorrect: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: Meine Mutter Hilda. Also kommst du?
+    Position: {x: 2837, y: 177}
+    AudioClip: {fileID: 8300000, guid: 3b3bbf64a6dd6f240b78940f049c205e, type: 3}
+    allCorrect: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: Super
+    Position: {x: 3989, y: 113}
+    AudioClip: {fileID: 8300000, guid: 91c6d01693645884f97b8f76501960a1, type: 3}
+    allCorrect: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: Ah shade
+    Position: {x: 3989, y: 292}
+    AudioClip: {fileID: 8300000, guid: 77d5ecb839f62ef4f8889b992e5b3b1d, type: 3}
+    allCorrect: 0
+  - NodeGUID: e1cbdd1c-1c13-4a23-86c5-dff6d0f42c28
+    DialogueText: was?
+    Position: {x: 3989, y: 475}
+    AudioClip: {fileID: 8300000, guid: 7afb86afdeeef5d4eb40b3475291c978, type: 3}
+    allCorrect: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: Ich hoffe, ich bekomme einen neuen ___.
+    Position: {x: 4463, y: 215}
+    AudioClip: {fileID: 8300000, guid: 07d37cff84994eb4da8641520e701fb7, type: 3}
+    allCorrect: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: Das ist richtig
+    Position: {x: 4888, y: 145}
+    AudioClip: {fileID: 8300000, guid: f5e6dafcf3f76d141ae8ac68e9e4cb1d, type: 3}
+    allCorrect: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: Das ist nicht richtig
+    Position: {x: 4888, y: 346}
+    AudioClip: {fileID: 8300000, guid: b3d9197a72b815d4c99b9510649a478a, type: 3}
+    allCorrect: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: Wir sehen uns am Samstag!
+    Position: {x: 5166, y: 287}
+    AudioClip: {fileID: 8300000, guid: 739519bd8f153dc4daec442fa7ead7f3, type: 3}
+    allCorrect: 0

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: WhisperTest
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: d36154ba-b5b6-4fa8-96df-d115ac51a703
+    PortName: Next
+    TargetNodeGUID: 4864b6c5-273f-4a45-a0b4-05c2f9455823
+  - BaseNodeGUID: 4864b6c5-273f-4a45-a0b4-05c2f9455823
+    PortName: sehr gut
+    TargetNodeGUID: 125287df-248f-454e-86e6-40035ab0bcb1
+  - BaseNodeGUID: 4864b6c5-273f-4a45-a0b4-05c2f9455823
+    PortName: 
+    TargetNodeGUID: 148dcc67-2da3-42d0-b0e9-84e9490af3ff
+  DialogueNodeData:
+  - NodeGUID: 125287df-248f-454e-86e6-40035ab0bcb1
+    DialogueText: Das ist gut.
+    Position: {x: 645, y: 15}
+    AudioClip: {fileID: 8300000, guid: fa70bf10e19d17341b4a19bb49ce6e34, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 4864b6c5-273f-4a45-a0b4-05c2f9455823
+    DialogueText: Say "sehr gut".
+    Position: {x: 258, y: 113}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 148dcc67-2da3-42d0-b0e9-84e9490af3ff
+    DialogueText: Was?
+    Position: {x: 663, y: 223}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0

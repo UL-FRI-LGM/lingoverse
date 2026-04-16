@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Anelli
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: f6d97521-723f-41a7-853c-9b952ff0a1ac
+    PortName: Next
+    TargetNodeGUID: 52f7b0d2-8642-4146-b07f-ce0b0bfd2070
+  - BaseNodeGUID: 52f7b0d2-8642-4146-b07f-ce0b0bfd2070
+    PortName: "Ich hei\xDFe [Name]."
+    TargetNodeGUID: 4625ddc1-df78-475e-8dee-d5e85bba3486
+  - BaseNodeGUID: 52f7b0d2-8642-4146-b07f-ce0b0bfd2070
+    PortName: Ich habe [Name].
+    TargetNodeGUID: 1d091ec9-20a8-4502-9f50-5d6d6e9b15d0
+  - BaseNodeGUID: 1d091ec9-20a8-4502-9f50-5d6d6e9b15d0
+    PortName: Choice 1
+    TargetNodeGUID: 183bab5f-8f86-4599-b9a2-78a0966773fb
+  - BaseNodeGUID: 183bab5f-8f86-4599-b9a2-78a0966773fb
+    PortName: Wo ist Burgdorf?
+    TargetNodeGUID: 0249235c-7a4b-49b6-825e-16f1639bdd64
+  - BaseNodeGUID: 183bab5f-8f86-4599-b9a2-78a0966773fb
+    PortName: Warum ist Burgdorf?
+    TargetNodeGUID: 16d89fe8-cc81-43b0-8c60-36fdbe3c3cdb
+  - BaseNodeGUID: 0249235c-7a4b-49b6-825e-16f1639bdd64
+    PortName: Choice 1
+    TargetNodeGUID: 894dee4a-2e0a-40b5-a085-97dddf11d17b
+  - BaseNodeGUID: 894dee4a-2e0a-40b5-a085-97dddf11d17b
+    PortName: Ich wohne in Slowenien.
+    TargetNodeGUID: c5548868-cdda-4c5d-85b4-2ea0dc2f7b2f
+  - BaseNodeGUID: 894dee4a-2e0a-40b5-a085-97dddf11d17b
+    PortName: Ich wohnst in Slowenien.
+    TargetNodeGUID: 6e22404f-051f-45cc-b6ca-984fe6670c1a
+  - BaseNodeGUID: 894dee4a-2e0a-40b5-a085-97dddf11d17b
+    PortName: Ich wohenen in Slowenien.
+    TargetNodeGUID: 6e22404f-051f-45cc-b6ca-984fe6670c1a
+  - BaseNodeGUID: 6e22404f-051f-45cc-b6ca-984fe6670c1a
+    PortName: Choice 1
+    TargetNodeGUID: 9289dcc6-a966-4693-a5fb-12b26b2c5fda
+  - BaseNodeGUID: 9289dcc6-a966-4693-a5fb-12b26b2c5fda
+    PortName: Wie alt bist du?
+    TargetNodeGUID: 29938af8-d3a4-4ff8-8b48-46695f5d715e
+  - BaseNodeGUID: 9289dcc6-a966-4693-a5fb-12b26b2c5fda
+    PortName: Wie alt sind ihr?
+    TargetNodeGUID: c67acbe4-4daa-4895-b443-845c185c557f
+  - BaseNodeGUID: 9289dcc6-a966-4693-a5fb-12b26b2c5fda
+    PortName: Wil alt hat du?
+    TargetNodeGUID: c67acbe4-4daa-4895-b443-845c185c557f
+  - BaseNodeGUID: c67acbe4-4daa-4895-b443-845c185c557f
+    PortName: Choice 1
+    TargetNodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+  - BaseNodeGUID: c5548868-cdda-4c5d-85b4-2ea0dc2f7b2f
+    PortName: Choice 1
+    TargetNodeGUID: 9289dcc6-a966-4693-a5fb-12b26b2c5fda
+  - BaseNodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+    PortName: "zweiunddrei\xDFig"
+    TargetNodeGUID: b20c70a5-53f9-467e-b460-dbe74b42c3bf
+  - BaseNodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+    PortName: "achtunddrei\xDFig"
+    TargetNodeGUID: fcb73f98-4c30-4952-bacf-96912f374cdd
+  - BaseNodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+    PortName: zweiundachtzig
+    TargetNodeGUID: fcb73f98-4c30-4952-bacf-96912f374cdd
+  - BaseNodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+    PortName: sechzehn
+    TargetNodeGUID: fcb73f98-4c30-4952-bacf-96912f374cdd
+  - BaseNodeGUID: fcb73f98-4c30-4952-bacf-96912f374cdd
+    PortName: Choice 1
+    TargetNodeGUID: ad35a149-3bae-4e47-956e-be9409271e2b
+  - BaseNodeGUID: 16d89fe8-cc81-43b0-8c60-36fdbe3c3cdb
+    PortName: Choice 1
+    TargetNodeGUID: 894dee4a-2e0a-40b5-a085-97dddf11d17b
+  - BaseNodeGUID: 4625ddc1-df78-475e-8dee-d5e85bba3486
+    PortName: Choice 1
+    TargetNodeGUID: 183bab5f-8f86-4599-b9a2-78a0966773fb
+  - BaseNodeGUID: 29938af8-d3a4-4ff8-8b48-46695f5d715e
+    PortName: Choice 1
+    TargetNodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+  - BaseNodeGUID: b20c70a5-53f9-467e-b460-dbe74b42c3bf
+    PortName: Choice 1
+    TargetNodeGUID: ad35a149-3bae-4e47-956e-be9409271e2b
+  - BaseNodeGUID: ad35a149-3bae-4e47-956e-be9409271e2b
+    PortName: Choice 1
+    TargetNodeGUID: e3db809a-6a10-4c55-86b2-c174a69699a1
+  - BaseNodeGUID: e3db809a-6a10-4c55-86b2-c174a69699a1
+    PortName: Ja, ich tanze gern.
+    TargetNodeGUID: 8b4ce6c3-a0dc-4448-a69a-34f8d5ca8f39
+  - BaseNodeGUID: e3db809a-6a10-4c55-86b2-c174a69699a1
+    PortName: Nein, ich tanze nicht gern.
+    TargetNodeGUID: a6622581-27ae-49a0-b073-a5d322ebeafe
+  - BaseNodeGUID: a6622581-27ae-49a0-b073-a5d322ebeafe
+    PortName: Choice 1
+    TargetNodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+  - BaseNodeGUID: 8b4ce6c3-a0dc-4448-a69a-34f8d5ca8f39
+    PortName: Choice 1
+    TargetNodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+  - BaseNodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+    PortName: Dancing
+    TargetNodeGUID: cc94c04b-ebe2-4f1c-addf-81cbd8171799
+  - BaseNodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+    PortName: Singing
+    TargetNodeGUID: 6f09e6d7-5d0b-473e-b871-3f5463fc19e3
+  - BaseNodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+    PortName: Reading
+    TargetNodeGUID: 6f09e6d7-5d0b-473e-b871-3f5463fc19e3
+  - BaseNodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+    PortName: Swimming
+    TargetNodeGUID: 6f09e6d7-5d0b-473e-b871-3f5463fc19e3
+  - BaseNodeGUID: cc94c04b-ebe2-4f1c-addf-81cbd8171799
+    PortName: Choice 1
+    TargetNodeGUID: 4d86b744-1e2b-4bc2-afb9-6cff27e2c43f
+  - BaseNodeGUID: 6f09e6d7-5d0b-473e-b871-3f5463fc19e3
+    PortName: Choice 1
+    TargetNodeGUID: 4d86b744-1e2b-4bc2-afb9-6cff27e2c43f
+  - BaseNodeGUID: 4d86b744-1e2b-4bc2-afb9-6cff27e2c43f
+    PortName: Choice 1
+    TargetNodeGUID: 08417ad4-7f86-4ff7-a6cb-0bcf87e20b08
+  - BaseNodeGUID: 08417ad4-7f86-4ff7-a6cb-0bcf87e20b08
+    PortName: "h\xF6ren"
+    TargetNodeGUID: 92b0a67d-31e7-4c16-9ef4-7eaf50faae0e
+  - BaseNodeGUID: 08417ad4-7f86-4ff7-a6cb-0bcf87e20b08
+    PortName: spielen
+    TargetNodeGUID: 1d03b857-323c-4226-8bbb-66189c52c486
+  - BaseNodeGUID: 08417ad4-7f86-4ff7-a6cb-0bcf87e20b08
+    PortName: gern
+    TargetNodeGUID: 1d03b857-323c-4226-8bbb-66189c52c486
+  DialogueNodeData:
+  - NodeGUID: 52f7b0d2-8642-4146-b07f-ce0b0bfd2070
+    DialogueText: "Hallo, ich hei\xDFe Anneli. Wie hei\xDFt du?"
+    Position: {x: 190, y: 200}
+    AudioClip: {fileID: 8300000, guid: f425116dd0a49f24b99ec47f9b4d6764, type: 3}
+    allCorrect: 0
+  - NodeGUID: 9289dcc6-a966-4693-a5fb-12b26b2c5fda
+    DialogueText: (Ask Anneli how old she is)
+    Position: {x: 2637, y: 260}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: ac2549b1-7ff1-4750-a896-224860b3c05e
+    DialogueText: (Pick the correct spelling for the number 32)
+    Position: {x: 3480, y: 236}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 9a9d562d-7bb4-40eb-959e-95321f2cc0f0
+    DialogueText: (What does Aneeli like to do)
+    Position: {x: 5468, y: 290}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 08417ad4-7f86-4ff7-a6cb-0bcf87e20b08
+    DialogueText: (Pick the word to listen (to music))
+    Position: {x: 6554, y: 345}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 183bab5f-8f86-4599-b9a2-78a0966773fb
+    DialogueText: (Ask Anneli where Burgdorf is)
+    Position: {x: 999, y: 215}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4625ddc1-df78-475e-8dee-d5e85bba3486
+    DialogueText: '[Name], ich mag deinen Namen.'
+    Position: {x: 602, y: 119}
+    AudioClip: {fileID: 8300000, guid: 652b2eac7d96e3546833eb72ea84e144, type: 3}
+    allCorrect: 0
+  - NodeGUID: 1d091ec9-20a8-4502-9f50-5d6d6e9b15d0
+    DialogueText: Was? (You chose the wrong answer, try again)
+    Position: {x: 577, y: 305}
+    AudioClip: {fileID: 8300000, guid: 43c96ce0087a8214c8679a4aa175dfb8, type: 3}
+    allCorrect: 0
+  - NodeGUID: 0249235c-7a4b-49b6-825e-16f1639bdd64
+    DialogueText: "Burgdorf ist in der Schweiz. Das liegt in der N\xE4he von Bern."
+    Position: {x: 1363, y: 143}
+    AudioClip: {fileID: 8300000, guid: d7fcc44fe374b6749ad2f8275b70b6cd, type: 3}
+    allCorrect: 0
+  - NodeGUID: 16d89fe8-cc81-43b0-8c60-36fdbe3c3cdb
+    DialogueText: "H\xE4? (You chose the wrong answer)"
+    Position: {x: 1427, y: 308}
+    AudioClip: {fileID: 8300000, guid: 43c96ce0087a8214c8679a4aa175dfb8, type: 3}
+    allCorrect: 0
+  - NodeGUID: 894dee4a-2e0a-40b5-a085-97dddf11d17b
+    DialogueText: Wo wohnst du?
+    Position: {x: 1869, y: 236}
+    AudioClip: {fileID: 8300000, guid: 18dcda0f58852a14a9157057997764fa, type: 3}
+    allCorrect: 0
+  - NodeGUID: c5548868-cdda-4c5d-85b4-2ea0dc2f7b2f
+    DialogueText: Slowenien? Meine Schwester wohnt in Slowenien.
+    Position: {x: 2179, y: 146}
+    AudioClip: {fileID: 8300000, guid: a9b75d84f42c00446b2abc9c7462c86b, type: 3}
+    allCorrect: 0
+  - NodeGUID: 6e22404f-051f-45cc-b6ca-984fe6670c1a
+    DialogueText: Das ist nicht richtig. (You chose the wrong answer)
+    Position: {x: 2172, y: 325}
+    AudioClip: {fileID: 8300000, guid: 19fb9253c613ee54d951f376632c9c11, type: 3}
+    allCorrect: 0
+  - NodeGUID: 29938af8-d3a4-4ff8-8b48-46695f5d715e
+    DialogueText: Ich bin 32 Jahre alt.
+    Position: {x: 3080, y: 146}
+    AudioClip: {fileID: 8300000, guid: 883eb7898427ce54bb8d8c1b78d6a2fc, type: 3}
+    allCorrect: 0
+  - NodeGUID: c67acbe4-4daa-4895-b443-845c185c557f
+    DialogueText: Deine Frage ist falsch. (You chose the wrong answer)
+    Position: {x: 2992, y: 308}
+    AudioClip: {fileID: 8300000, guid: 0e9b79cf63213a947a886dff0039b10e, type: 3}
+    allCorrect: 0
+  - NodeGUID: b20c70a5-53f9-467e-b460-dbe74b42c3bf
+    DialogueText: Ja, das ist richtig.
+    Position: {x: 4029, y: 146}
+    AudioClip: {fileID: 8300000, guid: aa450a7be83cda6498fea04c03d23988, type: 3}
+    allCorrect: 0
+  - NodeGUID: fcb73f98-4c30-4952-bacf-96912f374cdd
+    DialogueText: Das ist nicht richtig. (You chose the wrong answer)
+    Position: {x: 3926, y: 308}
+    AudioClip: {fileID: 8300000, guid: bb483db5ab33d1a4d8ff4b04d255fb0d, type: 3}
+    allCorrect: 0
+  - NodeGUID: ad35a149-3bae-4e47-956e-be9409271e2b
+    DialogueText: Ich gehe heute Abend tanzen.
+    Position: {x: 4394, y: 236}
+    AudioClip: {fileID: 8300000, guid: 801aaeb05a3916a4cb3b7c69d7c6a341, type: 3}
+    allCorrect: 0
+  - NodeGUID: e3db809a-6a10-4c55-86b2-c174a69699a1
+    DialogueText: Tanzt du gern?
+    Position: {x: 4748, y: 252}
+    AudioClip: {fileID: 8300000, guid: b8f750e8202b6e240894c7527921374f, type: 3}
+    allCorrect: 1
+  - NodeGUID: 8b4ce6c3-a0dc-4448-a69a-34f8d5ca8f39
+    DialogueText: Komm mit mir tanzen.
+    Position: {x: 5070, y: 192}
+    AudioClip: {fileID: 8300000, guid: dbdba15bf9243c547b4175e0dc77bb44, type: 3}
+    allCorrect: 0
+  - NodeGUID: a6622581-27ae-49a0-b073-a5d322ebeafe
+    DialogueText: Ah, schade. Tanzen ist mein Hobby..
+    Position: {x: 5028, y: 371}
+    AudioClip: {fileID: 8300000, guid: 73c0b42eb36792845be320947421662c, type: 3}
+    allCorrect: 0
+  - NodeGUID: cc94c04b-ebe2-4f1c-addf-81cbd8171799
+    DialogueText: Ja das ist richtig.
+    Position: {x: 5827, y: 235}
+    AudioClip: {fileID: 8300000, guid: aa450a7be83cda6498fea04c03d23988, type: 3}
+    allCorrect: 0
+  - NodeGUID: 6f09e6d7-5d0b-473e-b871-3f5463fc19e3
+    DialogueText: Das ist nicht richtig
+    Position: {x: 5827, y: 413}
+    AudioClip: {fileID: 8300000, guid: d36fe76a58817dc4982c3f8685c49de8, type: 3}
+    allCorrect: 0
+  - NodeGUID: 4d86b744-1e2b-4bc2-afb9-6cff27e2c43f
+    DialogueText: "Ich h\xF6re auch gern Musik und spiele in einer Band."
+    Position: {x: 6113, y: 345}
+    AudioClip: {fileID: 8300000, guid: c5bbaa19084fbf4408a72d209e5fa655, type: 3}
+    allCorrect: 0
+  - NodeGUID: 92b0a67d-31e7-4c16-9ef4-7eaf50faae0e
+    DialogueText: Ja das ist richtig.
+    Position: {x: 6921, y: 293}
+    AudioClip: {fileID: 8300000, guid: aa450a7be83cda6498fea04c03d23988, type: 3}
+    allCorrect: 0
+  - NodeGUID: 1d03b857-323c-4226-8bbb-66189c52c486
+    DialogueText: Das ist nicht richtig
+    Position: {x: 6921, y: 499}
+    AudioClip: {fileID: 8300000, guid: 19fb9253c613ee54d951f376632c9c11, type: 3}
+    allCorrect: 0

@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Dieter_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: 7672af48-b8a0-4d72-9735-9d86ab5e5f5e
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: brauche
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: brauchen
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: brauchst
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: brauchte
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Wer spielt auf dem Konzert?
+    TargetNodeGUID: d5ce6aba-4768-4291-9f58-2be284c0cb02
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Wer springt beim Konzert?
+    TargetNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Wer trinkt?
+    TargetNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Wer denkt?
+    TargetNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: kenne
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: kann
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: konnen
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    PortName: "k\xF6nnen"
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: a13ef61a-a8a9-4444-9c65-c13576dbe10b
+    PortName: Thursday
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: a13ef61a-a8a9-4444-9c65-c13576dbe10b
+    PortName: Monday
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: a13ef61a-a8a9-4444-9c65-c13576dbe10b
+    PortName: Tuesday
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: a13ef61a-a8a9-4444-9c65-c13576dbe10b
+    PortName: Sunday
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 46060c98-22e0-4e84-ad74-be687cc9fb64
+    PortName: Ohne
+    TargetNodeGUID: f3f2eb84-0846-4325-8b6f-bffa022821a1
+  - BaseNodeGUID: 46060c98-22e0-4e84-ad74-be687cc9fb64
+    PortName: Pause
+    TargetNodeGUID: ab4bb37c-0eef-43fe-a213-2857f58a59d2
+  - BaseNodeGUID: 46060c98-22e0-4e84-ad74-be687cc9fb64
+    PortName: Spielen
+    TargetNodeGUID: ab4bb37c-0eef-43fe-a213-2857f58a59d2
+  - BaseNodeGUID: 46060c98-22e0-4e84-ad74-be687cc9fb64
+    PortName: Sonne
+    TargetNodeGUID: ab4bb37c-0eef-43fe-a213-2857f58a59d2
+  - BaseNodeGUID: 7672af48-b8a0-4d72-9735-9d86ab5e5f5e
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Was machst du?
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Ich habe Hunger.
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Wo machst du?
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Wie geht es Sie?
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: d5ce6aba-4768-4291-9f58-2be284c0cb02
+    PortName: Choice 1
+    TargetNodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+  - BaseNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+    PortName: Choice 1
+    TargetNodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+  - BaseNodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+    PortName: Choice 1
+    TargetNodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Choice 1
+    TargetNodeGUID: a13ef61a-a8a9-4444-9c65-c13576dbe10b
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Choice 1
+    TargetNodeGUID: 46060c98-22e0-4e84-ad74-be687cc9fb64
+  - BaseNodeGUID: f3f2eb84-0846-4325-8b6f-bffa022821a1
+    PortName: Choice 1
+    TargetNodeGUID: c262af56-7006-4766-846e-b97edb67410f
+  - BaseNodeGUID: ab4bb37c-0eef-43fe-a213-2857f58a59d2
+    PortName: Choice 1
+    TargetNodeGUID: c262af56-7006-4766-846e-b97edb67410f
+  DialogueNodeData:
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: "(Insert the correct conjugation of the verb \u201Cneed\u201D) "
+    Position: {x: 1602, y: 178.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: "(Ask Dieter who\u2019s playing on the concert) "
+    Position: {x: 2418, y: 224}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 745b9da1-b23b-43db-8d87-4328e5eb469e
+    DialogueText: "( Ich ___ sie./ Ich ___ sie nicht. (Insert the correct conjugation
+      of the verb \u201Cknow\u201D))"
+    Position: {x: 3451.3333, y: 282.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: a13ef61a-a8a9-4444-9c65-c13576dbe10b
+    DialogueText: "(Choose the correct translation of \u201CDonnerstag\u201D)"
+    Position: {x: 5137.3335, y: 290}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 46060c98-22e0-4e84-ad74-be687cc9fb64
+    DialogueText: "(Choose the translation of the word \u201Cwithout\u201D)"
+    Position: {x: 6313.3335, y: 384.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 7672af48-b8a0-4d72-9735-9d86ab5e5f5e
+    DialogueText: Hallo. Wie geht es dir?
+    Position: {x: 185.33333, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: 531f7ca6463c23545b098ac26816b2ce, type: 3}
+    allCorrect: 0
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: (Ask Dieter what is he doing)
+    Position: {x: 467.33334, y: 162.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: Das ist richtig
+    Position: {x: 833.3333, y: 106.666664}
+    AudioClip: {fileID: 8300000, guid: 197cb16fbdb22cd4eb6a21966351078c, type: 3}
+    allCorrect: 0
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: Das ist nicht richtig
+    Position: {x: 833.3333, y: 272}
+    AudioClip: {fileID: 8300000, guid: 092825cb4630d4140b0a4b52e5c4e355, type: 3}
+    allCorrect: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: Ich kaufe online ein. Ich brauche eine Konzertkarte.
+    Position: {x: 1136, y: 178.66667}
+    AudioClip: {fileID: 8300000, guid: 0612f72b3fc52d94eb9c24a539b4abb9, type: 3}
+    allCorrect: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: Das ist richtig
+    Position: {x: 2101.3333, y: 176.66667}
+    AudioClip: {fileID: 8300000, guid: 197cb16fbdb22cd4eb6a21966351078c, type: 3}
+    allCorrect: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: Das ist nicht richtig
+    Position: {x: 2101.3333, y: 368.66666}
+    AudioClip: {fileID: 8300000, guid: 092825cb4630d4140b0a4b52e5c4e355, type: 3}
+    allCorrect: 0
+  - NodeGUID: d5ce6aba-4768-4291-9f58-2be284c0cb02
+    DialogueText: Das ist richtig
+    Position: {x: 2852, y: 180.66667}
+    AudioClip: {fileID: 8300000, guid: 197cb16fbdb22cd4eb6a21966351078c, type: 3}
+    allCorrect: 0
+  - NodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+    DialogueText: Das ist nicht richtig
+    Position: {x: 2852, y: 372}
+    AudioClip: {fileID: 8300000, guid: 092825cb4630d4140b0a4b52e5c4e355, type: 3}
+    allCorrect: 0
+  - NodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+    DialogueText: Kennst du Rammstein?
+    Position: {x: 3142, y: 282.66666}
+    AudioClip: {fileID: 8300000, guid: 78b9051802276fa40a2d16b3490e7bd9, type: 3}
+    allCorrect: 1
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: Das ist richtig
+    Position: {x: 4133.3335, y: 220}
+    AudioClip: {fileID: 8300000, guid: 197cb16fbdb22cd4eb6a21966351078c, type: 3}
+    allCorrect: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: Das ist nicht richtig
+    Position: {x: 4133.3335, y: 398.66666}
+    AudioClip: {fileID: 8300000, guid: 092825cb4630d4140b0a4b52e5c4e355, type: 3}
+    allCorrect: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: Sie spielen am Donnerstag in Wien. Mein Cousin nimmt meinen Bruder
+      und mich mit zum Konzert.
+    Position: {x: 4407.3335, y: 306.66666}
+    AudioClip: {fileID: 8300000, guid: b333ee3b85622ec49a2a33fc9b286ffe, type: 3}
+    allCorrect: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: Das ist richtig
+    Position: {x: 5620, y: 220}
+    AudioClip: {fileID: 8300000, guid: 197cb16fbdb22cd4eb6a21966351078c, type: 3}
+    allCorrect: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: Das ist nicht richtig
+    Position: {x: 5620, y: 420.66666}
+    AudioClip: {fileID: 8300000, guid: 092825cb4630d4140b0a4b52e5c4e355, type: 3}
+    allCorrect: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: Sie spielten 238 Minuten ohne Pause.
+    Position: {x: 5898, y: 362}
+    AudioClip: {fileID: 8300000, guid: 52688104191ffc54b8b45936628b94fd, type: 3}
+    allCorrect: 0
+  - NodeGUID: f3f2eb84-0846-4325-8b6f-bffa022821a1
+    DialogueText: Das ist richtig
+    Position: {x: 6779.3335, y: 302.66666}
+    AudioClip: {fileID: 8300000, guid: 197cb16fbdb22cd4eb6a21966351078c, type: 3}
+    allCorrect: 0
+  - NodeGUID: ab4bb37c-0eef-43fe-a213-2857f58a59d2
+    DialogueText: Das ist nicht richtig
+    Position: {x: 6779.3335, y: 499.99997}
+    AudioClip: {fileID: 8300000, guid: 092825cb4630d4140b0a4b52e5c4e355, type: 3}
+    allCorrect: 0
+  - NodeGUID: c262af56-7006-4766-846e-b97edb67410f
+    DialogueText: "Ich muss meine Kleidung packen. Tsch\xFCss. "
+    Position: {x: 7149.3335, y: 334.66666}
+    AudioClip: {fileID: 8300000, guid: 1de443e83c2a7144ca44b72fa91e38cc, type: 3}
+    allCorrect: 0

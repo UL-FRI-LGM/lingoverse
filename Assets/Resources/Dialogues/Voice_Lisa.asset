@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Voice_Lisa
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 0c5ed83e-6204-429b-951a-61f156bdf661
+    PortName: Next
+    TargetNodeGUID: e5816d16-f338-4bf1-8c30-586743ab2af5
+  - BaseNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+    PortName: Magst du auch Tee?
+    TargetNodeGUID: 8aa6a3d6-bd1e-4c62-ad28-26929ca47bff
+  - BaseNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+    PortName: Warum Kaffee?
+    TargetNodeGUID: 9f02a46f-2230-45c2-ad90-01b420bf3af5
+  - BaseNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+    PortName: Magst er auch Tee?
+    TargetNodeGUID: 9f02a46f-2230-45c2-ad90-01b420bf3af5
+  - BaseNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+    PortName: Warum Tee?
+    TargetNodeGUID: 9f02a46f-2230-45c2-ad90-01b420bf3af5
+  - BaseNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+    PortName: 
+    TargetNodeGUID: c3d9ad81-64ab-4489-a40b-2a85b762d6d5
+  - BaseNodeGUID: bc07bbee-0b74-4fc7-857e-e5756e64d80e
+    PortName: Choice 1
+    TargetNodeGUID: a4702e6d-5587-4cea-9c32-e83d805a12a2
+  - BaseNodeGUID: fc199691-e12b-4b06-8b5a-d70ca83d911a
+    PortName: Ja, ich liebe Obst.
+    TargetNodeGUID: 15f34ec4-81d6-424e-aa94-3ad311ed9253
+  - BaseNodeGUID: fc199691-e12b-4b06-8b5a-d70ca83d911a
+    PortName: Ich mag Obst nicht.
+    TargetNodeGUID: 7efc7365-a2d8-4c2a-920e-6c9eedac1b6e
+  - BaseNodeGUID: 7efc7365-a2d8-4c2a-920e-6c9eedac1b6e
+    PortName: Choice 1
+    TargetNodeGUID: 0de7f1e8-6227-4063-be2a-cccdef7108f4
+  - BaseNodeGUID: 15f34ec4-81d6-424e-aa94-3ad311ed9253
+    PortName: Choice 1
+    TargetNodeGUID: 0de7f1e8-6227-4063-be2a-cccdef7108f4
+  - BaseNodeGUID: 0de7f1e8-6227-4063-be2a-cccdef7108f4
+    PortName: Choice 1
+    TargetNodeGUID: ff902152-9585-4ff0-8c0e-0eb80c420524
+  - BaseNodeGUID: ccb4bf99-6e74-47f9-a03a-9b8039c3d7c6
+    PortName: Choice 1
+    TargetNodeGUID: fb5320af-74af-4397-8166-275b18f5d5e2
+  - BaseNodeGUID: e5816d16-f338-4bf1-8c30-586743ab2af5
+    PortName: Choice 1
+    TargetNodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+  - BaseNodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+    PortName: Mein Name ist [Name].
+    TargetNodeGUID: bc07bbee-0b74-4fc7-857e-e5756e64d80e
+  - BaseNodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+    PortName: Ich gehe [Name].
+    TargetNodeGUID: a7ecfffd-731c-451c-828a-354a53564d49
+  - BaseNodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+    PortName: Ich heisse [Name].
+    TargetNodeGUID: a7ecfffd-731c-451c-828a-354a53564d49
+  - BaseNodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+    PortName: 
+    TargetNodeGUID: 6ffd72ad-5193-4ae8-925d-a97e9bb290a2
+  - BaseNodeGUID: a7ecfffd-731c-451c-828a-354a53564d49
+    PortName: Choice 1
+    TargetNodeGUID: a4702e6d-5587-4cea-9c32-e83d805a12a2
+  - BaseNodeGUID: 6ffd72ad-5193-4ae8-925d-a97e9bb290a2
+    PortName: Choice 0
+    TargetNodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+  - BaseNodeGUID: a4702e6d-5587-4cea-9c32-e83d805a12a2
+    PortName: Choice 1
+    TargetNodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+  - BaseNodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+    PortName: Welches Obst magst du?
+    TargetNodeGUID: efae0e90-8dad-4ebe-a649-c367682831b1
+  - BaseNodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+    PortName: Warum Obst magst du?
+    TargetNodeGUID: d12ee0ec-8502-4119-9670-e1aaf7bfe9d0
+  - BaseNodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+    PortName: Welchen Obst magst du?
+    TargetNodeGUID: d12ee0ec-8502-4119-9670-e1aaf7bfe9d0
+  - BaseNodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+    PortName: 
+    TargetNodeGUID: 08c88f9b-7695-4af9-a27e-71e1463d57cb
+  - BaseNodeGUID: d12ee0ec-8502-4119-9670-e1aaf7bfe9d0
+    PortName: Choice 1
+    TargetNodeGUID: fc199691-e12b-4b06-8b5a-d70ca83d911a
+  - BaseNodeGUID: efae0e90-8dad-4ebe-a649-c367682831b1
+    PortName: Choice 1
+    TargetNodeGUID: fc199691-e12b-4b06-8b5a-d70ca83d911a
+  - BaseNodeGUID: 08c88f9b-7695-4af9-a27e-71e1463d57cb
+    PortName: Choice 0
+    TargetNodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+  - BaseNodeGUID: c684bd53-9e11-4f43-b4b6-1aa2274246e4
+    PortName: Choice 0
+    TargetNodeGUID: ff902152-9585-4ff0-8c0e-0eb80c420524
+  - BaseNodeGUID: 0f6844fc-211b-4cfd-94cb-1cf9ed8fb890
+    PortName: Choice 0
+    TargetNodeGUID: fb5320af-74af-4397-8166-275b18f5d5e2
+  - BaseNodeGUID: ff902152-9585-4ff0-8c0e-0eb80c420524
+    PortName: "Warum f\xE4hrst du nach Berlin?"
+    TargetNodeGUID: ccb4bf99-6e74-47f9-a03a-9b8039c3d7c6
+  - BaseNodeGUID: ff902152-9585-4ff0-8c0e-0eb80c420524
+    PortName: "Wie f\xE4hrst du nach Berlin?"
+    TargetNodeGUID: 0f6844fc-211b-4cfd-94cb-1cf9ed8fb890
+  - BaseNodeGUID: ff902152-9585-4ff0-8c0e-0eb80c420524
+    PortName: 
+    TargetNodeGUID: c684bd53-9e11-4f43-b4b6-1aa2274246e4
+  - BaseNodeGUID: fb5320af-74af-4397-8166-275b18f5d5e2
+    PortName: Choice 1
+    TargetNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+  - BaseNodeGUID: c3d9ad81-64ab-4489-a40b-2a85b762d6d5
+    PortName: Choice 0
+    TargetNodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+  DialogueNodeData:
+  - NodeGUID: 4bd72a3a-1bcd-42bf-aaa6-47f002ea3828
+    DialogueText: (Ask Lisa if she also likes tea)
+    Position: {x: 4815, y: 330}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: bc07bbee-0b74-4fc7-857e-e5756e64d80e
+    DialogueText: Netter Name, [Name].
+    Position: {x: 843, y: 135}
+    AudioClip: {fileID: 8300000, guid: 9ccaf566645e4744ea28fcd438118a9c, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: fc199691-e12b-4b06-8b5a-d70ca83d911a
+    DialogueText: Magst du auch Obst?
+    Position: {x: 2484, y: 249}
+    AudioClip: {fileID: 8300000, guid: 8b6c0276a8176b44e99c678e12ca680b, type: 3}
+    allCorrect: 1
+    dialogueType: 0
+  - NodeGUID: 7efc7365-a2d8-4c2a-920e-6c9eedac1b6e
+    DialogueText: Oh, schade
+    Position: {x: 2816, y: 365}
+    AudioClip: {fileID: 8300000, guid: dc2f23b8d729f0e4d9ef334ece500b28, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 15f34ec4-81d6-424e-aa94-3ad311ed9253
+    DialogueText: "Fantastisch! Obst ist sehr s\xFC\xDF."
+    Position: {x: 2797, y: 166}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0de7f1e8-6227-4063-be2a-cccdef7108f4
+    DialogueText: Ich fahre dieses Wochenende nach Berlin.
+    Position: {x: 3142, y: 300}
+    AudioClip: {fileID: 8300000, guid: fdba0762d9425934a9b04b76c8a231df, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: ccb4bf99-6e74-47f9-a03a-9b8039c3d7c6
+    DialogueText: Ich besuche eine alte Freundin.
+    Position: {x: 3961, y: 247}
+    AudioClip: {fileID: 8300000, guid: 588cfd06152ebac45882c7af10e4928f, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 8aa6a3d6-bd1e-4c62-ad28-26929ca47bff
+    DialogueText: Ja, ich mag auch Tee.
+    Position: {x: 5241, y: 247}
+    AudioClip: {fileID: 8300000, guid: d05182bb7a56aef4083d79fc0bc8cbe2, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 9f02a46f-2230-45c2-ad90-01b420bf3af5
+    DialogueText: Das ist nicht die passende Frage. (You said the wrong answer)
+    Position: {x: 5241, y: 447}
+    AudioClip: {fileID: 8300000, guid: 57cd25f740cf25a4bba67599caec1305, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: e5816d16-f338-4bf1-8c30-586743ab2af5
+    DialogueText: Hi, ich bin Lisa.
+    Position: {x: 180, y: 200}
+    AudioClip: {fileID: 8300000, guid: 9cfb0cbbc9781f34687c3bc453df36e0, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: e733e390-e2a2-452f-8fe1-6eaffc62bab1
+    DialogueText: Und wie ist dein Name?
+    Position: {x: 476, y: 200}
+    AudioClip: {fileID: 8300000, guid: cb977a468a3227f46a1c94358eec2c41, type: 3}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: a7ecfffd-731c-451c-828a-354a53564d49
+    DialogueText: Das ist grammatikalisch nicht korrekt . (You chose the wrong answer)
+    Position: {x: 793, y: 313}
+    AudioClip: {fileID: 8300000, guid: 638da1034cecb6345bbd73f5f7a77b8b, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: cfe41608-7ba2-4f3d-969e-58a1fde78d54
+    DialogueText: Dialogue Node
+    Position: {x: 0, y: 0}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 6ffd72ad-5193-4ae8-925d-a97e9bb290a2
+    DialogueText: Was? (introduce yourself)
+    Position: {x: 462, y: 495}
+    AudioClip: {fileID: 8300000, guid: d4865d4e81818864393c41a3edec485f, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: a4702e6d-5587-4cea-9c32-e83d805a12a2
+    DialogueText: Ich liebe Obst.
+    Position: {x: 1330, y: 237}
+    AudioClip: {fileID: 8300000, guid: 9b41fc645dfa7db4487cc46758d5b446, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 49f1b9df-436c-4e81-9421-523d0d8273c5
+    DialogueText: (Ask Lisa what kind of fruit she likes)
+    Position: {x: 1624, y: 237}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: d12ee0ec-8502-4119-9670-e1aaf7bfe9d0
+    DialogueText: Das ist nicht richtig. (You chose the wrong answer)
+    Position: {x: 2001, y: 344}
+    AudioClip: {fileID: 8300000, guid: 5c0c0a54059a7b7499639ab330a9513c, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: efae0e90-8dad-4ebe-a649-c367682831b1
+    DialogueText: Ich liebe Erdbeeren.
+    Position: {x: 2052, y: 133}
+    AudioClip: {fileID: 8300000, guid: 33d9e558862150144b550df25a4d58bd, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 08c88f9b-7695-4af9-a27e-71e1463d57cb
+    DialogueText: 'Was? (hint: "Obst" is fruit)'
+    Position: {x: 1634, y: 541}
+    AudioClip: {fileID: 8300000, guid: d4865d4e81818864393c41a3edec485f, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c684bd53-9e11-4f43-b4b6-1aa2274246e4
+    DialogueText: 'Was? (hint: "fahren" is to drive)'
+    Position: {x: 3539, y: 607}
+    AudioClip: {fileID: 8300000, guid: d4865d4e81818864393c41a3edec485f, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0f6844fc-211b-4cfd-94cb-1cf9ed8fb890
+    DialogueText: Das ist eine andere Frage. (You said the wrong answer)
+    Position: {x: 3931, y: 439}
+    AudioClip: {fileID: 8300000, guid: 0a96d38b04aba3d468324b869df3ed32, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: ff902152-9585-4ff0-8c0e-0eb80c420524
+    DialogueText: (Ask Lisa why she is going to Berlin)
+    Position: {x: 3528, y: 300}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: fb5320af-74af-4397-8166-275b18f5d5e2
+    DialogueText: Ich trinke gerne Kaffee am Morgen.
+    Position: {x: 4431, y: 330}
+    AudioClip: {fileID: 8300000, guid: 96cc353bbc59832468224924aef5ab2b, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c3d9ad81-64ab-4489-a40b-2a85b762d6d5
+    DialogueText: "Was? (hint: \"m\xF6gen\" is to like)"
+    Position: {x: 4815, y: 615}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0

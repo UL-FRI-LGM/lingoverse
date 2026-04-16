@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3620e4fc3a4d5854a9af4879f77b383c, type: 3}
+  m_Name: FlagsPairsGame
+  m_EditorClassIdentifier: 
+  pairs:
+  - {fileID: 11400000, guid: cb81e973dc78e914ba51ff4784ff648c, type: 2}
+  - {fileID: 11400000, guid: a00d724b3629d7c47a53dda06d01e129, type: 2}
+  - {fileID: 11400000, guid: c2238e9ed3dcde24a90be58c43636568, type: 2}
+  - {fileID: 11400000, guid: c39ea0cfa4acea44e89fe0cc289247b6, type: 2}
+  - {fileID: 11400000, guid: 5291bc8c5aa7fc748b47355028a3e339, type: 2}
+  - {fileID: 11400000, guid: 1991ed206af122040942e061b6f5de7d, type: 2}
+  - {fileID: 11400000, guid: 053aae7f5d809c4428d1e5f9a30dbda0, type: 2}
+  - {fileID: 11400000, guid: 9255913e135f2d84da625f9f0786f03f, type: 2}
+  reward: 0

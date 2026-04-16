@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2f0aacd747f1040a5b2d21b71c29a7, type: 3}
+  m_Name: lisa_Diag1_Node3.2
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: lisa_Diag1_Node3.2
+  dialogueText: {fileID: 11400000, guid: 1b422c3fc615f334ea6c570ec51b3098, type: 2}
+  canRestartOnFail: 0
+  nodes:
+  - {fileID: 11400000, guid: d7098eb2a135cab46a054b3f3448e4ec, type: 2}
+  exp: 0
+  dialogueType: 0

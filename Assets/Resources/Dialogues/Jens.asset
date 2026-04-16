@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Jens
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: e32580dd-7583-425a-9d4d-426f948a12f6
+    PortName: Next
+    TargetNodeGUID: 150fd387-6c82-4181-be3d-b6fb3158956c
+  - BaseNodeGUID: 150fd387-6c82-4181-be3d-b6fb3158956c
+    PortName: Choice 1
+    TargetNodeGUID: 80a19a93-57de-4657-b791-d9090b02ac0e
+  - BaseNodeGUID: 80a19a93-57de-4657-b791-d9090b02ac0e
+    PortName: Ich bin [Name]
+    TargetNodeGUID: 007dd94e-fe71-47e2-b285-ff8b0dec8e5a
+  - BaseNodeGUID: 80a19a93-57de-4657-b791-d9090b02ac0e
+    PortName: Ich bin ein Apfel
+    TargetNodeGUID: c37cdac9-b6ce-4634-9a59-ea441da41013
+  - BaseNodeGUID: 007dd94e-fe71-47e2-b285-ff8b0dec8e5a
+    PortName: Choice 1
+    TargetNodeGUID: 2eaa2486-e143-4515-ab0a-c270c4013d25
+  - BaseNodeGUID: c37cdac9-b6ce-4634-9a59-ea441da41013
+    PortName: Choice 1
+    TargetNodeGUID: 2eaa2486-e143-4515-ab0a-c270c4013d25
+  - BaseNodeGUID: 2eaa2486-e143-4515-ab0a-c270c4013d25
+    PortName: Choice 1
+    TargetNodeGUID: 18a4e8ae-c7de-47e1-b385-36f7e0a1d1a1
+  - BaseNodeGUID: 18a4e8ae-c7de-47e1-b385-36f7e0a1d1a1
+    PortName: Ich lebe in Slowenien.
+    TargetNodeGUID: 00cb722b-0a3b-4a3f-8b62-6ee173d9f697
+  - BaseNodeGUID: 18a4e8ae-c7de-47e1-b385-36f7e0a1d1a1
+    PortName: Ich lieben in Slowenien.
+    TargetNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+  - BaseNodeGUID: 18a4e8ae-c7de-47e1-b385-36f7e0a1d1a1
+    PortName: Ich leben in Slowenien.
+    TargetNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+  - BaseNodeGUID: 18a4e8ae-c7de-47e1-b385-36f7e0a1d1a1
+    PortName: Ich liebe in Slowenien.
+    TargetNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+  - BaseNodeGUID: 00cb722b-0a3b-4a3f-8b62-6ee173d9f697
+    PortName: Slowenien ist in Europa.
+    TargetNodeGUID: f6a31036-6b2e-4b35-bcda-6d35e57cdc4f
+  - BaseNodeGUID: 00cb722b-0a3b-4a3f-8b62-6ee173d9f697
+    PortName: Slowenien ist in Afrika.
+    TargetNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+  - BaseNodeGUID: 00cb722b-0a3b-4a3f-8b62-6ee173d9f697
+    PortName: Slowenien ist in Asien.
+    TargetNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+  - BaseNodeGUID: 00cb722b-0a3b-4a3f-8b62-6ee173d9f697
+    PortName: Slowenien ist in Amerika.
+    TargetNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+  - BaseNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+    PortName: Slowenien ist in Europa.
+    TargetNodeGUID: f6a31036-6b2e-4b35-bcda-6d35e57cdc4f
+  - BaseNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+    PortName: Slowenien ist in Afrika.
+    TargetNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+  - BaseNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+    PortName: Slowenien ist in Asien.
+    TargetNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+  - BaseNodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+    PortName: Slowenien ist in Amerika.
+    TargetNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+  - BaseNodeGUID: f6a31036-6b2e-4b35-bcda-6d35e57cdc4f
+    PortName: Choice 1
+    TargetNodeGUID: 0669d2f7-c2fd-41f3-a56f-d1d9c5be149a
+  - BaseNodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+    PortName: Choice 1
+    TargetNodeGUID: 0669d2f7-c2fd-41f3-a56f-d1d9c5be149a
+  - BaseNodeGUID: 0669d2f7-c2fd-41f3-a56f-d1d9c5be149a
+    PortName: Wie alt bist du?
+    TargetNodeGUID: 714abe15-5a5e-4b25-a909-b0e1c222c14c
+  - BaseNodeGUID: 0669d2f7-c2fd-41f3-a56f-d1d9c5be149a
+    PortName: Wie alt seid ihr?
+    TargetNodeGUID: d5650ebf-e580-4bbc-998f-963dd8bbd68f
+  - BaseNodeGUID: 0669d2f7-c2fd-41f3-a56f-d1d9c5be149a
+    PortName: Wil alt schreibst du?
+    TargetNodeGUID: d5650ebf-e580-4bbc-998f-963dd8bbd68f
+  - BaseNodeGUID: d5650ebf-e580-4bbc-998f-963dd8bbd68f
+    PortName: Choice 1
+    TargetNodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+  - BaseNodeGUID: 714abe15-5a5e-4b25-a909-b0e1c222c14c
+    PortName: Choice 1
+    TargetNodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+  - BaseNodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+    PortName: "f\xFCnfzehn"
+    TargetNodeGUID: 335baf27-9fac-4254-a075-8c2c11ede6c6
+  - BaseNodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+    PortName: "f\xFCnfzehnt"
+    TargetNodeGUID: d2079156-d190-47d0-959c-fda27fdf2f0a
+  - BaseNodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+    PortName: "f\xFCnfzehnt"
+    TargetNodeGUID: d2079156-d190-47d0-959c-fda27fdf2f0a
+  - BaseNodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+    PortName: sechzehn
+    TargetNodeGUID: d2079156-d190-47d0-959c-fda27fdf2f0a
+  - BaseNodeGUID: 335baf27-9fac-4254-a075-8c2c11ede6c6
+    PortName: Das ist richtig
+    TargetNodeGUID: c1da28a5-18e1-45e1-9650-bb79c3a2d604
+  - BaseNodeGUID: d2079156-d190-47d0-959c-fda27fdf2f0a
+    PortName: Das ist nicht richtig
+    TargetNodeGUID: c1da28a5-18e1-45e1-9650-bb79c3a2d604
+  - BaseNodeGUID: c1da28a5-18e1-45e1-9650-bb79c3a2d604
+    PortName: "Ja, ich spiele gern Fu\xDFball."
+    TargetNodeGUID: 93174c78-beb4-43f7-a175-dee08dd30eff
+  - BaseNodeGUID: c1da28a5-18e1-45e1-9650-bb79c3a2d604
+    PortName: "Nein, ich spiele nicht gern Fu\xDFball."
+    TargetNodeGUID: 7699d6f6-68c3-4ad3-9202-e1ef1c1e4ab3
+  - BaseNodeGUID: 93174c78-beb4-43f7-a175-dee08dd30eff
+    PortName: Choice 1
+    TargetNodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+  - BaseNodeGUID: 7699d6f6-68c3-4ad3-9202-e1ef1c1e4ab3
+    PortName: Choice 1
+    TargetNodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+  - BaseNodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+    PortName: spielen
+    TargetNodeGUID: 57f3e6e1-04d0-4717-a0fb-a0a36de44225
+  - BaseNodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+    PortName: spielen
+    TargetNodeGUID: c9bac3c7-88fd-4e22-b62b-11c3c7c95535
+  - BaseNodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+    PortName: sehen
+    TargetNodeGUID: c9bac3c7-88fd-4e22-b62b-11c3c7c95535
+  - BaseNodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+    PortName: spazieren
+    TargetNodeGUID: c9bac3c7-88fd-4e22-b62b-11c3c7c95535
+  - BaseNodeGUID: 57f3e6e1-04d0-4717-a0fb-a0a36de44225
+    PortName: Choice 1
+    TargetNodeGUID: 6ec93cdc-50ac-4f7a-8ef9-9fab0045ab97
+  - BaseNodeGUID: c9bac3c7-88fd-4e22-b62b-11c3c7c95535
+    PortName: Choice 1
+    TargetNodeGUID: 6ec93cdc-50ac-4f7a-8ef9-9fab0045ab97
+  - BaseNodeGUID: 6ec93cdc-50ac-4f7a-8ef9-9fab0045ab97
+    PortName: Choice 1
+    TargetNodeGUID: d4716a66-ca68-4f35-aeef-d72fae25e9e5
+  - BaseNodeGUID: d4716a66-ca68-4f35-aeef-d72fae25e9e5
+    PortName: auch
+    TargetNodeGUID: cba5303f-5bc6-46f7-b89d-7fcdeea19401
+  - BaseNodeGUID: d4716a66-ca68-4f35-aeef-d72fae25e9e5
+    PortName: gern
+    TargetNodeGUID: c162a947-49ee-4308-a9dc-025713d63f30
+  - BaseNodeGUID: d4716a66-ca68-4f35-aeef-d72fae25e9e5
+    PortName: spiele
+    TargetNodeGUID: c162a947-49ee-4308-a9dc-025713d63f30
+  DialogueNodeData:
+  - NodeGUID: 0669d2f7-c2fd-41f3-a56f-d1d9c5be149a
+    DialogueText: (Ask Jens how old he is)
+    Position: {x: 2751.3333, y: 276}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: d5650ebf-e580-4bbc-998f-963dd8bbd68f
+    DialogueText: Deine Frage ist falsch. (You chose the wrong answer)
+    Position: {x: 3066.6667, y: 373.3333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 714abe15-5a5e-4b25-a909-b0e1c222c14c
+    DialogueText: Ich bin 15 Jahre alt.
+    Position: {x: 3154.6667, y: 193.33334}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4a0597f8-094a-4cfa-98ff-cfaaf6cacd59
+    DialogueText: (Pick the correct spelling of the number 15)
+    Position: {x: 3529.3333, y: 304}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 335baf27-9fac-4254-a075-8c2c11ede6c6
+    DialogueText: Das ist richtig
+    Position: {x: 3977.3333, y: 208}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: d2079156-d190-47d0-959c-fda27fdf2f0a
+    DialogueText: Das ist nicht richtig
+    Position: {x: 3977.3333, y: 401.3333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 8baa476a-bebc-467a-ae90-dd9ea44e7276
+    DialogueText: (Pick the verb to play (football))
+    Position: {x: 4962.6665, y: 290.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 57f3e6e1-04d0-4717-a0fb-a0a36de44225
+    DialogueText: Das ist richtig
+    Position: {x: 5304.6665, y: 184.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: c9bac3c7-88fd-4e22-b62b-11c3c7c95535
+    DialogueText: Das ist nicht richtig
+    Position: {x: 5304.6665, y: 362.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: d4716a66-ca68-4f35-aeef-d72fae25e9e5
+    DialogueText: (Pick the word for also)
+    Position: {x: 5952, y: 290.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: c162a947-49ee-4308-a9dc-025713d63f30
+    DialogueText: Das ist nicht richtig
+    Position: {x: 6284.6665, y: 412.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: cba5303f-5bc6-46f7-b89d-7fcdeea19401
+    DialogueText: Das ist richtig
+    Position: {x: 6284.6665, y: 238.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 150fd387-6c82-4181-be3d-b6fb3158956c
+    DialogueText: Tag, ich bin Jens.
+    Position: {x: 204.66667, y: 200}
+    AudioClip: {fileID: 8300000, guid: e995bff5c34e3d048be7c14a92316de2, type: 3}
+    allCorrect: 0
+  - NodeGUID: 80a19a93-57de-4657-b791-d9090b02ac0e
+    DialogueText: Wer bist du?
+    Position: {x: 469.33334, y: 200}
+    AudioClip: {fileID: 8300000, guid: d79fcf6506dabdd4ea8301aade166290, type: 3}
+    allCorrect: 0
+  - NodeGUID: 007dd94e-fe71-47e2-b285-ff8b0dec8e5a
+    DialogueText: "Freut mich. Das ist ein sch\xF6ner Name."
+    Position: {x: 739.3333, y: 143.33334}
+    AudioClip: {fileID: 8300000, guid: b256fde72127bbb4eb5fe2100242e469, type: 3}
+    allCorrect: 0
+  - NodeGUID: c37cdac9-b6ce-4634-9a59-ea441da41013
+    DialogueText: Was? Ein Apfel?
+    Position: {x: 803.3333, y: 308.66666}
+    AudioClip: {fileID: 8300000, guid: b241f0a8d3fba5e4e9e261cbcf795f05, type: 3}
+    allCorrect: 0
+  - NodeGUID: 2eaa2486-e143-4515-ab0a-c270c4013d25
+    DialogueText: Ich lebe in Hannover, Deutschland.
+    Position: {x: 1130.6666, y: 224}
+    AudioClip: {fileID: 8300000, guid: d6dc88c4c5c9b5c4f9ccdd62afe1969e, type: 3}
+    allCorrect: 0
+  - NodeGUID: 18a4e8ae-c7de-47e1-b385-36f7e0a1d1a1
+    DialogueText: Wo lebst du?
+    Position: {x: 1468.6666, y: 224.66667}
+    AudioClip: {fileID: 8300000, guid: 8f029a81da0b7b54aaf5e0a7f02c9339, type: 3}
+    allCorrect: 0
+  - NodeGUID: 00cb722b-0a3b-4a3f-8b62-6ee173d9f697
+    DialogueText: Wow, Slowenien. Das ist sehr interessant. Wo ist Slowenien?
+    Position: {x: 1720.6666, y: 89.33333}
+    AudioClip: {fileID: 8300000, guid: 831e2588e139cd348a009e62e2918c2f, type: 3}
+    allCorrect: 0
+  - NodeGUID: a1be8ca2-11bf-4fc0-9104-c2989ed84201
+    DialogueText: "H\xE4? (You chose the wrong answer). Wo ist Slowenien?"
+    Position: {x: 1720.6666, y: 326.66666}
+    AudioClip: {fileID: 8300000, guid: 80e594a3a7cb9934f86731b772db9a11, type: 3}
+    allCorrect: 0
+  - NodeGUID: f6a31036-6b2e-4b35-bcda-6d35e57cdc4f
+    DialogueText: Ah, ich verstehe. Slowenien ist in Europa.
+    Position: {x: 2339.3333, y: 161.33334}
+    AudioClip: {fileID: 8300000, guid: 2c3d66bec805b364abe9d3fa7c17e49d, type: 3}
+    allCorrect: 0
+  - NodeGUID: d7cb9f76-c4a9-4b72-8725-97581c866734
+    DialogueText: "H\xE4? (You chose the wrong answer)"
+    Position: {x: 2339.3333, y: 326.66666}
+    AudioClip: {fileID: 8300000, guid: 4706c11c2dfa47e42861f7bdf6a6184b, type: 3}
+    allCorrect: 0
+  - NodeGUID: c1da28a5-18e1-45e1-9650-bb79c3a2d604
+    DialogueText: "Spielst du gern Fu\xDFball?"
+    Position: {x: 4280.6665, y: 290.66666}
+    AudioClip: {fileID: 8300000, guid: e9529f4c9c63e544a97220f522331572, type: 3}
+    allCorrect: 1
+  - NodeGUID: 93174c78-beb4-43f7-a175-dee08dd30eff
+    DialogueText: Super. Ich auch.
+    Position: {x: 4587.3335, y: 216.66667}
+    AudioClip: {fileID: 8300000, guid: f51379d485192124eab1637168e88f66, type: 3}
+    allCorrect: 0
+  - NodeGUID: 7699d6f6-68c3-4ad3-9202-e1ef1c1e4ab3
+    DialogueText: "Ah schade. Ich spiele gern Fu\xDFball."
+    Position: {x: 4587.3335, y: 395.3333}
+    AudioClip: {fileID: 8300000, guid: eca94028967e11f4ba925714703b1ed0, type: 3}
+    allCorrect: 0
+  - NodeGUID: 6ec93cdc-50ac-4f7a-8ef9-9fab0045ab97
+    DialogueText: Ich spiele auch gern Computerspiele.
+    Position: {x: 5586, y: 290.66666}
+    AudioClip: {fileID: 8300000, guid: 3228a637c314d7d43aeb79b5a59e1ed0, type: 3}
+    allCorrect: 0

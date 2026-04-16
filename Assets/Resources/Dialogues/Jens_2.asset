@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Jens_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: 1129b4a8-5c9c-4a1d-a5ca-e8aad4d94ea8
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Wo gehst du schwimmen?
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Wann gehst du schwimmen?
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Wo gehen du schwimmen?
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Warum gehen du schwimmen?
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Schwimmbad
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: See
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Schwimmgut
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Mehr
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Grandson
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Sister
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Grandma
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Uncle
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 1129b4a8-5c9c-4a1d-a5ca-e8aad4d94ea8
+    PortName: Choice 1
+    TargetNodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+  - BaseNodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Choice 1
+    TargetNodeGUID: d7f3555c-f165-4344-87b7-8d0fcc1e91e6
+  - BaseNodeGUID: d7f3555c-f165-4344-87b7-8d0fcc1e91e6
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Kaufhaus
+    TargetNodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Bibliothek
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Bank
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Postamt
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Wohin geht du mit dir?
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Wann geht noch mit dir?
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Wer geht noch mit dir?
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Warum geht noch mit dir?
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  DialogueNodeData:
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: '(Ask Jens where he is going swimming.) '
+    Position: {x: 772, y: 152.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: "(Choose the correct word for \u201Cswimming pool\u201D)"
+    Position: {x: 1841.3334, y: 162.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: '(Who is Jens to Heidi?) '
+    Position: {x: 4525.3335, y: 176.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 1129b4a8-5c9c-4a1d-a5ca-e8aad4d94ea8
+    DialogueText: Hallo!
+    Position: {x: 191.33333, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: 3677d5ec47de1f64da63ed1c1c24003e, type: 3}
+    allCorrect: 0
+  - NodeGUID: a66c5fad-7d54-4816-a9cc-7ef19fcfe372
+    DialogueText: Heute gehe ich schwimmen.
+    Position: {x: 457.33334, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: f7d98712c72985b48882a0b5cfdd9099, type: 3}
+    allCorrect: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: (Das ist richtig)
+    Position: {x: 1255.3334, y: 70}
+    AudioClip: {fileID: 8300000, guid: 85e28e10251c78c49a1543411e59715d, type: 3}
+    allCorrect: 0
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 1255.3334, y: 246.00002}
+    AudioClip: {fileID: 8300000, guid: b6707af1f3e0e59468a018897117e939, type: 3}
+    allCorrect: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: Ich gehe in ___.
+    Position: {x: 1571.3334, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: 97356e54bed8f534c890ceeb8425d3c1, type: 3}
+    allCorrect: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: (Das ist richtig)
+    Position: {x: 2289.3333, y: 116.666664}
+    AudioClip: {fileID: 8300000, guid: 85e28e10251c78c49a1543411e59715d, type: 3}
+    allCorrect: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 2289.3333, y: 308}
+    AudioClip: {fileID: 8300000, guid: b6707af1f3e0e59468a018897117e939, type: 3}
+    allCorrect: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: Ich gehe mit meiner Familie. Mein Vater liebt Schwimmen.
+    Position: {x: 2589.3333, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: e0cee3a54de608f4580948146f466872, type: 3}
+    allCorrect: 0
+  - NodeGUID: d7f3555c-f165-4344-87b7-8d0fcc1e91e6
+    DialogueText: Er ist ein olympischer Schwimmer.
+    Position: {x: 3096, y: 162.66667}
+    AudioClip: {fileID: 8300000, guid: 22f4cd47389ff33468e64efcf6840f1f, type: 3}
+    allCorrect: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: (Das ist richtig)
+    Position: {x: 3873.3333, y: 116.666664}
+    AudioClip: {fileID: 8300000, guid: 85e28e10251c78c49a1543411e59715d, type: 3}
+    allCorrect: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 3873.3333, y: 294.66666}
+    AudioClip: {fileID: 8300000, guid: b6707af1f3e0e59468a018897117e939, type: 3}
+    allCorrect: 0
+  - NodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    DialogueText: Meine Oma Heidi und Onkel Darko.
+    Position: {x: 4171.3335, y: 212.66667}
+    AudioClip: {fileID: 8300000, guid: cd970c67f1a26bf4596e70238b8d709b, type: 3}
+    allCorrect: 0
+  - NodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    DialogueText: "Tsch\xFCss!"
+    Position: {x: 6069.3335, y: 316.66666}
+    AudioClip: {fileID: 8300000, guid: 6f512b720d95ac0478feef22e303ecfa, type: 3}
+    allCorrect: 0
+  - NodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    DialogueText: Bist du sicher?
+    Position: {x: 5813.3335, y: 398.66666}
+    AudioClip: {fileID: 8300000, guid: 6854e192421c73e49956c891443daad4, type: 3}
+    allCorrect: 0
+  - NodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+    DialogueText: Danke!
+    Position: {x: 5813.3335, y: 212.66667}
+    AudioClip: {fileID: 8300000, guid: 3f1478dff6437c0459882f3db181a88d, type: 3}
+    allCorrect: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: Ich brauche einen neuen Badeanzug. Wissen Sie, wo ich einen kaufen
+      kann?
+    Position: {x: 5183.3335, y: 258}
+    AudioClip: {fileID: 8300000, guid: 6c70ca472c60db341bfaf9dab06d28f9, type: 3}
+    allCorrect: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 4888, y: 346.66666}
+    AudioClip: {fileID: 8300000, guid: 85e28e10251c78c49a1543411e59715d, type: 3}
+    allCorrect: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: (Das ist richtig)
+    Position: {x: 4888, y: 144.66667}
+    AudioClip: {fileID: 8300000, guid: b6707af1f3e0e59468a018897117e939, type: 3}
+    allCorrect: 0
+  - NodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    DialogueText: (Ask Jens who else is going with them.)
+    Position: {x: 3455.3333, y: 160}
+    AudioClip: {fileID: 0}
+    allCorrect: 0

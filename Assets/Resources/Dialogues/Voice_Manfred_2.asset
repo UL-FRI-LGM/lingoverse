@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Voice_Manfred_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: ee7ae189-8cdc-449e-88d2-1297378640a0
+  - BaseNodeGUID: ee7ae189-8cdc-449e-88d2-1297378640a0
+    PortName: Choice 1
+    TargetNodeGUID: 6417c880-2585-43d3-b322-dff0babfdd46
+  - BaseNodeGUID: 6417c880-2585-43d3-b322-dff0babfdd46
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Freitag
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Dienstrag
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Mittwoch
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Donnerstag
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Montag
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Samstag
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Sonntag
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 
+    TargetNodeGUID: 58e1b228-e16f-4db1-a36e-db25c6b475a5
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 5f5b2268-ec28-41c7-b8f6-6268b4574815
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Ich muss Deutsche lernen.
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Ich will Deutsche lernen.
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Ich kann Deutsche lernen.
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Ich mussen Deutsche lernen.
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: 
+    TargetNodeGUID: 7e651f40-3e0b-4290-8060-a1df6a47269d
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: 9390ab5f-1b5c-411a-9d72-59f0eb261d73
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: 9390ab5f-1b5c-411a-9d72-59f0eb261d73
+  - BaseNodeGUID: 58e1b228-e16f-4db1-a36e-db25c6b475a5
+    PortName: Choice 0
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: 9390ab5f-1b5c-411a-9d72-59f0eb261d73
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Mag
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Magst
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "M\xF6g"
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "M\xE4g"
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: 
+    TargetNodeGUID: 83a0fe28-64bf-4659-9cc4-b1572d46d108
+  - BaseNodeGUID: 83a0fe28-64bf-4659-9cc4-b1572d46d108
+    PortName: Choice 0
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 1f3b894a-fef8-400d-bd02-d26aaa54fddc
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 1f3b894a-fef8-400d-bd02-d26aaa54fddc
+  - BaseNodeGUID: 7e651f40-3e0b-4290-8060-a1df6a47269d
+    PortName: Choice 0
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 5f5b2268-ec28-41c7-b8f6-6268b4574815
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "M\xF6gst Sie Kust? "
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: 'Magst du Chemie? '
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "M\xF6gst du Kunst? "
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: 'Magst du Kunst? '
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: 
+    TargetNodeGUID: 3b390197-b09d-45f2-9b79-ff8bdd092fcb
+  - BaseNodeGUID: 3b390197-b09d-45f2-9b79-ff8bdd092fcb
+    PortName: Choice 0
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  DialogueNodeData:
+  - NodeGUID: ee7ae189-8cdc-449e-88d2-1297378640a0
+    DialogueText: 'Hallo, ich bin Lil Manfred Jr. '
+    Position: {x: 191, y: 163}
+    AudioClip: {fileID: 8300000, guid: 1b0ca11faa66a0d4981711103d85e096, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 6417c880-2585-43d3-b322-dff0babfdd46
+    DialogueText: "Ich bin gl\xFCcklich, denn es ist ___ und morgen ist Wochenende. "
+    Position: {x: 503, y: 186}
+    AudioClip: {fileID: 8300000, guid: 9fb659f0f69ff494aa324a35ad3c0215, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: (Say the correct day of the week.)
+    Position: {x: 1010, y: 140}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: Das ist nicht richtig.
+    Position: {x: 1379, y: 319}
+    AudioClip: {fileID: 8300000, guid: 3baec4e389a41bc478c65a6f97314a78, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: Das ist richtig.
+    Position: {x: 1379, y: 63}
+    AudioClip: {fileID: 8300000, guid: 8af0ce98d849d4548b6ddb884f9eff55, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 5f5b2268-ec28-41c7-b8f6-6268b4574815
+    DialogueText: Was machst du am Wochenende?
+    Position: {x: 2239, y: 248}
+    AudioClip: {fileID: 8300000, guid: 0871cb7ced94c0b488a4d39bd90f311f, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: (Answer that you have to study German).
+    Position: {x: 2595, y: 248}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: (Das ist richtig)
+    Position: {x: 3017, y: 170}
+    AudioClip: {fileID: 8300000, guid: 8af0ce98d849d4548b6ddb884f9eff55, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 3017, y: 361}
+    AudioClip: {fileID: 8300000, guid: 3baec4e389a41bc478c65a6f97314a78, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 58e1b228-e16f-4db1-a36e-db25c6b475a5
+    DialogueText: Was? (unrecognized day of the week)
+    Position: {x: 1010, y: 617}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 9390ab5f-1b5c-411a-9d72-59f0eb261d73
+    DialogueText: 'Ach ja, ich muss auch lernen. Ich muss Geographie und Kunst studieren. '
+    Position: {x: 3379, y: 275}
+    AudioClip: {fileID: 8300000, guid: e9356d863c20df748b25b5604bc1b527, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 4411, y: 398}
+    AudioClip: {fileID: 8300000, guid: 3baec4e389a41bc478c65a6f97314a78, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: (Das ist richtig)
+    Position: {x: 4411, y: 173}
+    AudioClip: {fileID: 8300000, guid: 8af0ce98d849d4548b6ddb884f9eff55, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    DialogueText: 'Ja ich ___ es. Ich hasse Informatik und Chemie. '
+    Position: {x: 4767, y: 275}
+    AudioClip: {fileID: 8300000, guid: 82aaf36bf5f46184199eb576544c8b3d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: "(Say the correct conjugation of the verb \u201Clike\u201D.) "
+    Position: {x: 5197, y: 283}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 83a0fe28-64bf-4659-9cc4-b1572d46d108
+    DialogueText: Was? (unrecognized form of verb "like")
+    Position: {x: 5208, y: 633}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 5682, y: 406}
+    AudioClip: {fileID: 8300000, guid: 3baec4e389a41bc478c65a6f97314a78, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: (Das ist richtig)
+    Position: {x: 5682, y: 196}
+    AudioClip: {fileID: 8300000, guid: 8af0ce98d849d4548b6ddb884f9eff55, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 1f3b894a-fef8-400d-bd02-d26aaa54fddc
+    DialogueText: " Ich liebe Sport! Und ich bin zu sp\xE4t, auf Wiedersehen! "
+    Position: {x: 6009, y: 305}
+    AudioClip: {fileID: 8300000, guid: 672782c33fb78e14597605728fbfdf22, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 7e651f40-3e0b-4290-8060-a1df6a47269d
+    DialogueText: Was? (unrecognized sentence)
+    Position: {x: 2621, y: 619}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: "Ich gehe nach Manchester. Es gibt ein Fu\xDFballspiel. "
+    Position: {x: 1774, y: 248}
+    AudioClip: {fileID: 8300000, guid: 2fd8a1f2708e0b541bf1195508b69707, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    DialogueText: '(Ask Manfred if he likes art.) '
+    Position: {x: 3989, y: 275}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 3b390197-b09d-45f2-9b79-ff8bdd092fcb
+    DialogueText: Was? (unrecognized sentence)
+    Position: {x: 3989, y: 578}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0

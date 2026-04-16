@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183da8e2a56f0304099d03fbb8d6e4bd, type: 3}
+  m_Name: Spoon
+  m_EditorClassIdentifier: 
+  objectName: Spoon
+  info: "ein L\xF6ffel der L\xF6ffel"
+  audioClip: {fileID: 8300000, guid: b5c91ccf8a36d1e468f05992b4b9c0d6, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3620e4fc3a4d5854a9af4879f77b383c, type: 3}
+  m_Name: KitchenGame
+  m_EditorClassIdentifier: 
+  pairs:
+  - {fileID: 11400000, guid: a21f93357a6237e49a2fa152940197eb, type: 2}
+  - {fileID: 11400000, guid: fa29e999c4e578b4e88f55959cee5a97, type: 2}
+  - {fileID: 11400000, guid: 5e46c7dec9ee65b4c9c6a932edf1410f, type: 2}
+  - {fileID: 11400000, guid: 5d6b8444a8a639e479895483a99b5829, type: 2}
+  reward: 40

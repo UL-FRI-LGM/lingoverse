@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2f0aacd747f1040a5b2d21b71c29a7, type: 3}
+  m_Name: anneli_Diag1_Node19.1
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: anneli_Diag1_Node19.1
+  dialogueText: {fileID: 11400000, guid: c77c1c4d32fde454cbdaca23d84819b9, type: 2}
+  canRestartOnFail: 0
+  nodes:
+  - {fileID: 11400000, guid: 47c853f058dae104786935694e54bfe2, type: 2}
+  - {fileID: 11400000, guid: 32e31481e0a1abd4098644733ad1b274, type: 2}
+  - {fileID: 11400000, guid: 48c8fc0b8db63b6419b196624e7e7137, type: 2}
+  - {fileID: 11400000, guid: dfd9151ba085d8f49a55ca279398a3d4, type: 2}
+  exp: 0
+  dialogueType: 0

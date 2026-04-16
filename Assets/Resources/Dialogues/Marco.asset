@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Marco
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: e32580dd-7583-425a-9d4d-426f948a12f6
+    PortName: Next
+    TargetNodeGUID: af86a45b-3534-45b2-94ab-4facfb96639e
+  - BaseNodeGUID: af86a45b-3534-45b2-94ab-4facfb96639e
+    PortName: "Wie hei\xDFt du?"
+    TargetNodeGUID: 96bcaf3f-bc00-4db8-9ff0-68dc1520b6a6
+  - BaseNodeGUID: 96bcaf3f-bc00-4db8-9ff0-68dc1520b6a6
+    PortName: Mein Name ist [Name].
+    TargetNodeGUID: 2a7d18fc-c532-46d4-9cc0-c83e054da330
+  - BaseNodeGUID: 96bcaf3f-bc00-4db8-9ff0-68dc1520b6a6
+    PortName: Ich lebe in Slowenien.
+    TargetNodeGUID: dbb20679-604a-464b-936b-159e9c32ab8e
+  - BaseNodeGUID: 2a7d18fc-c532-46d4-9cc0-c83e054da330
+    PortName: Choice 1
+    TargetNodeGUID: 48b9bccd-9099-44f2-a954-a778005fc551
+  - BaseNodeGUID: dbb20679-604a-464b-936b-159e9c32ab8e
+    PortName: Choice 1
+    TargetNodeGUID: 48b9bccd-9099-44f2-a954-a778005fc551
+  - BaseNodeGUID: 48b9bccd-9099-44f2-a954-a778005fc551
+    PortName: Choice 1
+    TargetNodeGUID: 2e88b6af-7219-4488-b919-d7d3964ca23d
+  - BaseNodeGUID: 2e88b6af-7219-4488-b919-d7d3964ca23d
+    PortName: Ich wohne in Slowenien.
+    TargetNodeGUID: bd0d8b94-c7c1-459b-9ad3-d5ed3451c7ee
+  - BaseNodeGUID: 2e88b6af-7219-4488-b919-d7d3964ca23d
+    PortName: Ich wohnst in Slowenien.
+    TargetNodeGUID: 04c86249-102a-488d-a578-faf9e816cd2c
+  - BaseNodeGUID: bd0d8b94-c7c1-459b-9ad3-d5ed3451c7ee
+    PortName: Choice 1
+    TargetNodeGUID: 96750f5d-eb65-4a1d-b3be-41f61f06d2ac
+  - BaseNodeGUID: 04c86249-102a-488d-a578-faf9e816cd2c
+    PortName: Choice 1
+    TargetNodeGUID: 96750f5d-eb65-4a1d-b3be-41f61f06d2ac
+  - BaseNodeGUID: 96750f5d-eb65-4a1d-b3be-41f61f06d2ac
+    PortName: "\xD6sterreich"
+    TargetNodeGUID: 53dbba05-92ef-46da-94f0-0785a6a2a1c8
+  - BaseNodeGUID: 96750f5d-eb65-4a1d-b3be-41f61f06d2ac
+    PortName: Schweiz
+    TargetNodeGUID: 62edbce1-abe2-4a16-ada2-73417cfb2df2
+  - BaseNodeGUID: 96750f5d-eb65-4a1d-b3be-41f61f06d2ac
+    PortName: Deutschland
+    TargetNodeGUID: 62edbce1-abe2-4a16-ada2-73417cfb2df2
+  - BaseNodeGUID: 53dbba05-92ef-46da-94f0-0785a6a2a1c8
+    PortName: Choice 1
+    TargetNodeGUID: 7be40702-ba6d-47d7-995b-bd9aea7fd09d
+  - BaseNodeGUID: 62edbce1-abe2-4a16-ada2-73417cfb2df2
+    PortName: Choice 1
+    TargetNodeGUID: 7be40702-ba6d-47d7-995b-bd9aea7fd09d
+  - BaseNodeGUID: 7be40702-ba6d-47d7-995b-bd9aea7fd09d
+    PortName: Wie alt sind Sie?
+    TargetNodeGUID: fe366792-047d-40aa-bf9b-d259d724f0bb
+  - BaseNodeGUID: 7be40702-ba6d-47d7-995b-bd9aea7fd09d
+    PortName: Wie alt sind ihr?
+    TargetNodeGUID: 039892ae-1216-485e-876f-2b31ec0f1621
+  - BaseNodeGUID: 7be40702-ba6d-47d7-995b-bd9aea7fd09d
+    PortName: Wollest Alt hatten Sie?
+    TargetNodeGUID: 039892ae-1216-485e-876f-2b31ec0f1621
+  - BaseNodeGUID: 039892ae-1216-485e-876f-2b31ec0f1621
+    PortName: Choice 1
+    TargetNodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+  - BaseNodeGUID: fe366792-047d-40aa-bf9b-d259d724f0bb
+    PortName: Choice 1
+    TargetNodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+  - BaseNodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+    PortName: neunundzwanzig
+    TargetNodeGUID: b9414c6e-ac7a-4ac0-b397-330688ecb0ac
+  - BaseNodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+    PortName: sechszehn
+    TargetNodeGUID: 375c7121-734e-423d-b0ba-c60fcb061b7c
+  - BaseNodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+    PortName: zweiundachtzig
+    TargetNodeGUID: 375c7121-734e-423d-b0ba-c60fcb061b7c
+  - BaseNodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+    PortName: achtundzwanzig
+    TargetNodeGUID: 375c7121-734e-423d-b0ba-c60fcb061b7c
+  - BaseNodeGUID: 375c7121-734e-423d-b0ba-c60fcb061b7c
+    PortName: Choice 1
+    TargetNodeGUID: 81802fb2-ddd7-4f4d-a3ea-2d3381875985
+  - BaseNodeGUID: b9414c6e-ac7a-4ac0-b397-330688ecb0ac
+    PortName: Choice 1
+    TargetNodeGUID: 81802fb2-ddd7-4f4d-a3ea-2d3381875985
+  - BaseNodeGUID: 81802fb2-ddd7-4f4d-a3ea-2d3381875985
+    PortName: Choice 1
+    TargetNodeGUID: 8c73a16c-de31-45cb-b6b5-097695853ecc
+  - BaseNodeGUID: 8c73a16c-de31-45cb-b6b5-097695853ecc
+    PortName: Do you have a phone?
+    TargetNodeGUID: 41b3f67e-9c6b-4476-8cec-2059dfffe9a7
+  - BaseNodeGUID: 8c73a16c-de31-45cb-b6b5-097695853ecc
+    PortName: Do you have a dog?
+    TargetNodeGUID: 4ef2e1bd-0271-44f0-aa9e-563291bb7f72
+  - BaseNodeGUID: 8c73a16c-de31-45cb-b6b5-097695853ecc
+    PortName: Do you have a hand?
+    TargetNodeGUID: 4ef2e1bd-0271-44f0-aa9e-563291bb7f72
+  - BaseNodeGUID: 4ef2e1bd-0271-44f0-aa9e-563291bb7f72
+    PortName: Choice 1
+    TargetNodeGUID: e23d02a8-3f37-4502-ab99-dc13861c1d10
+  - BaseNodeGUID: 41b3f67e-9c6b-4476-8cec-2059dfffe9a7
+    PortName: Choice 1
+    TargetNodeGUID: e23d02a8-3f37-4502-ab99-dc13861c1d10
+  - BaseNodeGUID: e23d02a8-3f37-4502-ab99-dc13861c1d10
+    PortName: Choice 1
+    TargetNodeGUID: 178ee443-aa85-4b11-a886-329015e2532f
+  - BaseNodeGUID: 178ee443-aa85-4b11-a886-329015e2532f
+    PortName: 'Nein, ich chatte nicht gern. '
+    TargetNodeGUID: 96b32038-0527-4b30-9ed7-e2d1c60a1660
+  - BaseNodeGUID: 178ee443-aa85-4b11-a886-329015e2532f
+    PortName: Ja, ich chatte gern.
+    TargetNodeGUID: 57ada502-76b0-4510-8d2f-0af3cae69672
+  DialogueNodeData:
+  - NodeGUID: 96750f5d-eb65-4a1d-b3be-41f61f06d2ac
+    DialogueText: (What country is Wien in)
+    Position: {x: 2491.3333, y: 237.33333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 62edbce1-abe2-4a16-ada2-73417cfb2df2
+    DialogueText: Das ist nicht richtig.
+    Position: {x: 2796.6667, y: 358}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 7be40702-ba6d-47d7-995b-bd9aea7fd09d
+    DialogueText: (Ask Marco how old he is)
+    Position: {x: 3076, y: 258.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 2b13c426-a66b-4d9e-9304-57dd7d88313c
+    DialogueText: (How do you write 29)
+    Position: {x: 3885.3333, y: 270.66666}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 375c7121-734e-423d-b0ba-c60fcb061b7c
+    DialogueText: Das ist nicht richtig. (You chose the wrong answer)
+    Position: {x: 4180, y: 358}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: b9414c6e-ac7a-4ac0-b397-330688ecb0ac
+    DialogueText: Ja, das ist richtig.
+    Position: {x: 4248, y: 188}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 8c73a16c-de31-45cb-b6b5-097695853ecc
+    DialogueText: (What did he ask?)
+    Position: {x: 4896.6665, y: 275.3333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 4ef2e1bd-0271-44f0-aa9e-563291bb7f72
+    DialogueText: Das ist nicht richtig.
+    Position: {x: 5193.3335, y: 358}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: 41b3f67e-9c6b-4476-8cec-2059dfffe9a7
+    DialogueText: Das ist richtig.
+    Position: {x: 5193.3335, y: 192.66667}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: af86a45b-3534-45b2-94ab-4facfb96639e
+    DialogueText: Hallo, ich bin Marco.
+    Position: {x: 198, y: 200}
+    AudioClip: {fileID: 8300000, guid: 3ab0e667c0aad3142b3cd9db5a999b10, type: 3}
+    allCorrect: 0
+  - NodeGUID: 96bcaf3f-bc00-4db8-9ff0-68dc1520b6a6
+    DialogueText: "Wie hei\xDFt du?"
+    Position: {x: 471.33334, y: 200}
+    AudioClip: {fileID: 8300000, guid: 2a9429fc91a24e240a34e98d2f5e9fc9, type: 3}
+    allCorrect: 0
+  - NodeGUID: 2a7d18fc-c532-46d4-9cc0-c83e054da330
+    DialogueText: "[Name], ich mag deinen Namen. Der ist sehr sch\xF6n."
+    Position: {x: 790.6667, y: 128.66667}
+    AudioClip: {fileID: 8300000, guid: 2996cf38e04f3be4d92e02d88e9fda0a, type: 3}
+    allCorrect: 0
+  - NodeGUID: dbb20679-604a-464b-936b-159e9c32ab8e
+    DialogueText: Was? Das ist nicht dein Name. (You chose the wrong answer)
+    Position: {x: 766, y: 294}
+    AudioClip: {fileID: 8300000, guid: a546a65b8e5c1c6449c6dd89ca04cfeb, type: 3}
+    allCorrect: 0
+  - NodeGUID: 48b9bccd-9099-44f2-a954-a778005fc551
+    DialogueText: Ich komme aus Wien. Aber ich wohne in Hannover.
+    Position: {x: 1280.6666, y: 237.33333}
+    AudioClip: {fileID: 8300000, guid: a8b47dc9962cbe549826e541cea3822a, type: 3}
+    allCorrect: 0
+  - NodeGUID: 2e88b6af-7219-4488-b919-d7d3964ca23d
+    DialogueText: Wo wohnst du?
+    Position: {x: 1741.3334, y: 237.33333}
+    AudioClip: {fileID: 8300000, guid: 0b79e7b105df11643bb61e8f853f7757, type: 3}
+    allCorrect: 0
+  - NodeGUID: bd0d8b94-c7c1-459b-9ad3-d5ed3451c7ee
+    DialogueText: "Slowenien? Das liegt in der N\xE4he von Wien."
+    Position: {x: 2026.6666, y: 154.66667}
+    AudioClip: {fileID: 8300000, guid: 0da77667a907cbe48a8094d1f59ba252, type: 3}
+    allCorrect: 0
+  - NodeGUID: 04c86249-102a-488d-a578-faf9e816cd2c
+    DialogueText: Das ist nicht richtig. (You chose the wrong answer)
+    Position: {x: 2026.6666, y: 320}
+    AudioClip: {fileID: 8300000, guid: 7fc49e723982e5c46800bf756067b040, type: 3}
+    allCorrect: 0
+  - NodeGUID: 53dbba05-92ef-46da-94f0-0785a6a2a1c8
+    DialogueText: Das ist richtig
+    Position: {x: 2796.6667, y: 176}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+  - NodeGUID: fe366792-047d-40aa-bf9b-d259d724f0bb
+    DialogueText: Ich bin 29 Jahre alt.
+    Position: {x: 3520.6667, y: 176}
+    AudioClip: {fileID: 8300000, guid: dad1289ca9069fc459c228e8f8ffb6da, type: 3}
+    allCorrect: 0
+  - NodeGUID: 039892ae-1216-485e-876f-2b31ec0f1621
+    DialogueText: Deine Frage ist falsch. (You chose the wrong answer)
+    Position: {x: 3409.3333, y: 358}
+    AudioClip: {fileID: 8300000, guid: 75e46799baf973d408047fc8ea4e13ad, type: 3}
+    allCorrect: 0
+  - NodeGUID: 81802fb2-ddd7-4f4d-a3ea-2d3381875985
+    DialogueText: Hast du ein Handy?
+    Position: {x: 4630.6665, y: 275.3333}
+    AudioClip: {fileID: 8300000, guid: 544b3537b6298ea4a9bf27b2cc9391f9, type: 3}
+    allCorrect: 0
+  - NodeGUID: e23d02a8-3f37-4502-ab99-dc13861c1d10
+    DialogueText: Ich habe ein Handy und es ist mein guter Freund. Ich chatte gern
+      mit meinen Freunden
+    Position: {x: 5480, y: 284}
+    AudioClip: {fileID: 8300000, guid: 9eeb0b105bec7ac4fbcb8a2095096ad1, type: 3}
+    allCorrect: 0
+  - NodeGUID: 178ee443-aa85-4b11-a886-329015e2532f
+    DialogueText: Chattest du gern?
+    Position: {x: 6122, y: 284}
+    AudioClip: {fileID: 8300000, guid: 00346f3ee785b7b42be5e6ad13ce2c92, type: 3}
+    allCorrect: 1
+  - NodeGUID: 57ada502-76b0-4510-8d2f-0af3cae69672
+    DialogueText: "Fantastisch. Chatte mit mir sp\xE4ter."
+    Position: {x: 6410.6665, y: 220}
+    AudioClip: {fileID: 8300000, guid: 88d5a8b843bbddf4a94a6a6d4cd48cc9, type: 3}
+    allCorrect: 0
+  - NodeGUID: 96b32038-0527-4b30-9ed7-e2d1c60a1660
+    DialogueText: Schade
+    Position: {x: 6410.6665, y: 385.3333}
+    AudioClip: {fileID: 0}
+    allCorrect: 0

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e368fc41bc619a14286f462c4e55e0bc, type: 3}
+  m_Name: Marco_Diag1_Node8.2_Text
+  m_EditorClassIdentifier: 
+  text: "\xD6sterreich"
+  textEn: 
+  textAudio: {fileID: 0}
+  isCorrectAnswer: 1

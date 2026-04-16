@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Voice_Anelli_CountrySide
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: b0ed3b9b-3d1e-4b36-b987-d523e0b89d0e
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Warum bist du aufgeregt?
+    TargetNodeGUID: b67f78c5-c138-4200-9c9a-59c14eab7476
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Warum bist du nicht aufgeregt?
+    TargetNodeGUID: 83d48853-fddc-42a4-9fb3-4e882e821f2f
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Wo bist du?
+    TargetNodeGUID: 83d48853-fddc-42a4-9fb3-4e882e821f2f
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: Was machst du?
+    TargetNodeGUID: 83d48853-fddc-42a4-9fb3-4e882e821f2f
+  - BaseNodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+    PortName: spielt
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+    PortName: spielen
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+    PortName: spielst
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+    PortName: spiele
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: "Viel spa\xDF"
+    TargetNodeGUID: c262af56-7006-4766-846e-b97edb67410f
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Hallo
+    TargetNodeGUID: 0314b377-6ad0-4d40-aa7a-c8c3dbaa07d3
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Viel essen
+    TargetNodeGUID: 0314b377-6ad0-4d40-aa7a-c8c3dbaa07d3
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Dienstag
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Montag
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Samstag
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Sonntag
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Grandma
+    TargetNodeGUID: d5ce6aba-4768-4291-9f58-2be284c0cb02
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Grandpa
+    TargetNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Cousin
+    TargetNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+  - BaseNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    PortName: Sister
+    TargetNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+  - BaseNodeGUID: b0ed3b9b-3d1e-4b36-b987-d523e0b89d0e
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: b67f78c5-c138-4200-9c9a-59c14eab7476
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 83d48853-fddc-42a4-9fb3-4e882e821f2f
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: 64054ca6-217f-478a-a404-84033d8a472d
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: 64054ca6-217f-478a-a404-84033d8a472d
+  - BaseNodeGUID: 64054ca6-217f-478a-a404-84033d8a472d
+    PortName: Choice 1
+    TargetNodeGUID: cc8d30f1-74b8-4a5a-9f70-e61c6cf62b68
+  - BaseNodeGUID: cc8d30f1-74b8-4a5a-9f70-e61c6cf62b68
+    PortName: Choice 1
+    TargetNodeGUID: 4c746c73-b66b-4c79-a5f2-4c8bca4da118
+  - BaseNodeGUID: 4c746c73-b66b-4c79-a5f2-4c8bca4da118
+    PortName: Choice 1
+    TargetNodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+  - BaseNodeGUID: d5ce6aba-4768-4291-9f58-2be284c0cb02
+    PortName: Choice 1
+    TargetNodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+  - BaseNodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+    PortName: Choice 1
+    TargetNodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+  - BaseNodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+    PortName: Choice 1
+    TargetNodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: a854a43d-238e-450b-b2db-8cb157a555d0
+    PortName: Choice 0
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 
+    TargetNodeGUID: a854a43d-238e-450b-b2db-8cb157a555d0
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: 
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+    PortName: 
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: 
+    TargetNodeGUID: 0314b377-6ad0-4d40-aa7a-c8c3dbaa07d3
+  DialogueNodeData:
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: '(Ask Anneli why she is excited) '
+    Position: {x: 715, y: 123}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 1fec5d2d-1b36-4299-8ec6-57650c36e80a
+    DialogueText: '(Say the correct conjugation of the verb to play) '
+    Position: {x: 4922, y: 201}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: '(When is Anneli going to the wedding?) '
+    Position: {x: 1977, y: 187}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: b67f78c5-c138-4200-9c9a-59c14eab7476
+    DialogueText: Das ist richtig
+    Position: {x: 1147, y: 1}
+    AudioClip: {fileID: 8300000, guid: a2da4b8e84412434ab843778102c6523, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 83d48853-fddc-42a4-9fb3-4e882e821f2f
+    DialogueText: Das ist nicht richtig
+    Position: {x: 1147, y: 208}
+    AudioClip: {fileID: 8300000, guid: 71f85b80c3bedd94ea257ee06bb3ee28, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: Ich gehe morgen zur Hochzeit meiner Schwester.
+    Position: {x: 1519, y: 146}
+    AudioClip: {fileID: 8300000, guid: a397357c61077ac41927a1d10b0c71cc, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: Das ist richtig
+    Position: {x: 2380, y: 93}
+    AudioClip: {fileID: 8300000, guid: a2da4b8e84412434ab843778102c6523, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: Das ist nicht richtig
+    Position: {x: 2380, y: 284}
+    AudioClip: {fileID: 8300000, guid: 71f85b80c3bedd94ea257ee06bb3ee28, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 64054ca6-217f-478a-a404-84033d8a472d
+    DialogueText: Opa und Oma kommen.
+    Position: {x: 2689, y: 201}
+    AudioClip: {fileID: 8300000, guid: a33366837d7a7cf44aa2d126d648559d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: cc8d30f1-74b8-4a5a-9f70-e61c6cf62b68
+    DialogueText: "Opa hei\xDFt Hubert und meine Oma hei\xDFt R\xF6xanna."
+    Position: {x: 2988, y: 201}
+    AudioClip: {fileID: 8300000, guid: 44a2031bf9f75724391fbf807a9d98b4, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 4c746c73-b66b-4c79-a5f2-4c8bca4da118
+    DialogueText: Meine Cousine Bertha kommt auch. Sie ist 19 Jahre alt.
+    Position: {x: 3426, y: 201}
+    AudioClip: {fileID: 8300000, guid: ae2d08ba1343d2d4a9662a7a5405107b, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: d5ce6aba-4768-4291-9f58-2be284c0cb02
+    DialogueText: Das ist richtig
+    Position: {x: 4167, y: 105}
+    AudioClip: {fileID: 8300000, guid: a2da4b8e84412434ab843778102c6523, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: d381fee7-29ce-4b85-b690-269d93250076
+    DialogueText: Mein Onkel spielt Gitarre und meine Tante singt.
+    Position: {x: 4489, y: 201}
+    AudioClip: {fileID: 8300000, guid: a6db08297d13f0446bee78033b033903, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: Das ist richtig
+    Position: {x: 5425, y: 139}
+    AudioClip: {fileID: 8300000, guid: a2da4b8e84412434ab843778102c6523, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: Das ist nicht richtig
+    Position: {x: 5425, y: 317}
+    AudioClip: {fileID: 8300000, guid: 71f85b80c3bedd94ea257ee06bb3ee28, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c262af56-7006-4766-846e-b97edb67410f
+    DialogueText: Danke, auf Wiedersehen
+    Position: {x: 6075, y: 174}
+    AudioClip: {fileID: 8300000, guid: 7092265788ace1e4a9bd4eaeb675560a, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0314b377-6ad0-4d40-aa7a-c8c3dbaa07d3
+    DialogueText: Ha?
+    Position: {x: 6075, y: 356}
+    AudioClip: {fileID: 8300000, guid: d840952ab095298409d7e2430db8a06c, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: b0ed3b9b-3d1e-4b36-b987-d523e0b89d0e
+    DialogueText: Hallo, heute ist Montag und ich bin aufgeregt.
+    Position: {x: 256, y: 156}
+    AudioClip: {fileID: 8300000, guid: 78c264269f404354493895c065b0e20b, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: a854a43d-238e-450b-b2db-8cb157a555d0
+    DialogueText: 'Was? (hint: "aufgeregt" is excited)'
+    Position: {x: 715, y: 419}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: a4b64a83-b090-44bc-8d2f-7ed156a981db
+    DialogueText: "(Who is R\xF6xanna?)"
+    Position: {x: 3877, y: 201}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: d61087e4-6e32-42c6-8f2e-06aedfc80a80
+    DialogueText: Das ist nicht richtig
+    Position: {x: 4183, y: 295}
+    AudioClip: {fileID: 8300000, guid: 71f85b80c3bedd94ea257ee06bb3ee28, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: (Tell her to have fun)
+    Position: {x: 5752, y: 245}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1

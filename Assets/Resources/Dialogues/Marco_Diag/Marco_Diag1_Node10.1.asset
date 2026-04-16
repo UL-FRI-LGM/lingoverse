@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2f0aacd747f1040a5b2d21b71c29a7, type: 3}
+  m_Name: Marco_Diag1_Node10.1
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: Marco_Diag1_Node10.1
+  dialogueText: {fileID: 11400000, guid: 821e794ffe9ab904a822281e390d2e06, type: 2}
+  canRestartOnFail: 0
+  nodes:
+  - {fileID: 11400000, guid: 9c449f3c250d1c2489920ff50e9a615a, type: 2}
+  - {fileID: 11400000, guid: 176194d9377953a4e852c33115c258db, type: 2}
+  - {fileID: 11400000, guid: 43714a8b3871c024cbbf2b9d853eca1a, type: 2}
+  exp: 0
+  dialogueType: 0

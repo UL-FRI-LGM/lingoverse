@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2f0aacd747f1040a5b2d21b71c29a7, type: 3}
+  m_Name: Jens_Diag1_Node16.1
+  m_EditorClassIdentifier: 
+  <id>k__BackingField: Jens_Diag1_Node16.1
+  dialogueText: {fileID: 11400000, guid: f23fdd9fe08365a43b3c15684c62b482, type: 2}
+  canRestartOnFail: 0
+  nodes:
+  - {fileID: 11400000, guid: 11f9c169360e4f049bc9cd29b85c79d0, type: 2}
+  - {fileID: 11400000, guid: c4fedd5b501b3b64ea1cb7750006a79d, type: 2}
+  exp: 0
+  dialogueType: 0

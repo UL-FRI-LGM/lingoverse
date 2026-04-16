@@ -1,0 +1,320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698b01b822f39294d818a343876a671c, type: 3}
+  m_Name: Voice_Johanna_2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 29a6dc4f-b9b2-4a54-b73f-6251c40c2d0d
+    PortName: Next
+    TargetNodeGUID: 7fd93636-67de-47f4-a0b3-75cfa06b6a33
+  - BaseNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+    PortName: Was ist dein Lieblingssport
+    TargetNodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+  - BaseNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+    PortName: Was ist deine Lieblingssport
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+    PortName: Wenn ist dein Lieblingssport
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+    PortName: Wann ist deine Lieblingssport
+    TargetNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+  - BaseNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    PortName: Choice 1
+    TargetNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+  - BaseNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    PortName: Choice 1
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    PortName: Choice 1
+    TargetNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+  - BaseNodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    PortName: Choice 1
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    PortName: Choice 1
+    TargetNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+  - BaseNodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    PortName: Choice 1
+    TargetNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+  - BaseNodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    PortName: Choice 1
+    TargetNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+  - BaseNodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    PortName: Choice 1
+    TargetNodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+  - BaseNodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    PortName: Choice 1
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: 7fd93636-67de-47f4-a0b3-75cfa06b6a33
+    PortName: Choice 1
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: "Welche F\xE4cher lehren Sie? "
+    TargetNodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: "Wann F\xE4cher lernen Sie? "
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: "Welche F\xE4cher lernen Sie? "
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: "Warum F\xE4cher brauchen Sie?"
+    TargetNodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Ich kennst nicht
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "Ich k\xF6nne  nicht"
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: "Ich m\xFCssen nicht"
+    TargetNodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: Ich kenne nicht
+    TargetNodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+  - BaseNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    PortName: 
+    TargetNodeGUID: a92c3cc2-0fcd-43bc-91e7-f68e29d86abf
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Notizblock
+    TargetNodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Notizbuch
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Schultasche
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: Schere
+    TargetNodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+  - BaseNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    PortName: 
+    TargetNodeGUID: e87aadb8-6d4d-4cab-b001-c693fde12af4
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Ordner
+    TargetNodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Mappen
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: "B\xFCcher"
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: Marker
+    TargetNodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+  - BaseNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    PortName: 
+    TargetNodeGUID: 1eed38da-6100-456d-9815-8577c33df267
+  - BaseNodeGUID: 1eed38da-6100-456d-9815-8577c33df267
+    PortName: Choice 0
+    TargetNodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+  - BaseNodeGUID: a92c3cc2-0fcd-43bc-91e7-f68e29d86abf
+    PortName: Choice 0
+    TargetNodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+  - BaseNodeGUID: e87aadb8-6d4d-4cab-b001-c693fde12af4
+    PortName: Choice 0
+    TargetNodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+  - BaseNodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    PortName: Choice 1
+    TargetNodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+  - BaseNodeGUID: 5c8e723a-c88a-46cf-ad5a-8ca622be2d94
+    PortName: Choice 0
+    TargetNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+  - BaseNodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    PortName: 
+    TargetNodeGUID: 5c8e723a-c88a-46cf-ad5a-8ca622be2d94
+  - BaseNodeGUID: 1bf2a57a-a8cf-4966-9d12-d09a79eceb4a
+    PortName: Choice 0
+    TargetNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+  - BaseNodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+    PortName: 
+    TargetNodeGUID: 1bf2a57a-a8cf-4966-9d12-d09a79eceb4a
+  DialogueNodeData:
+  - NodeGUID: 27bcd64b-eb74-4b6f-a260-c5a51b34f8ff
+    DialogueText: '(Ask Johanna what her favourite sport is.) '
+    Position: {x: 4747, y: 246}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 1302fbba-4ebd-445e-9987-22e63bd4fbcb
+    DialogueText: Ich lehre Mathematik und Physik.
+    Position: {x: 900, y: 123}
+    AudioClip: {fileID: 8300000, guid: 57d8d50474c83fd40ad0fac40d62ea9e, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c0069b82-1866-4406-8489-62b4ac5ed8e6
+    DialogueText: Das ist nicht richtig.
+    Position: {x: 900, y: 299}
+    AudioClip: {fileID: 8300000, guid: 2bb1138b6a3efca458199bb9d855748d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 12eb8ce2-c372-4aa2-a94c-7d2bf4988621
+    DialogueText: (Das ist richtig)
+    Position: {x: 1970, y: 143}
+    AudioClip: {fileID: 8300000, guid: ba15c94483a7eec4e9984fabba664b03, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec36dd4-24d7-4f49-866b-efd916447476
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 1970, y: 334}
+    AudioClip: {fileID: 8300000, guid: 2bb1138b6a3efca458199bb9d855748d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 2dbbddff-2360-4c81-b9c4-a7bfeb4264af
+    DialogueText: (Das ist richtig)
+    Position: {x: 2765, y: 62}
+    AudioClip: {fileID: 8300000, guid: ba15c94483a7eec4e9984fabba664b03, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 5fa22b53-4538-400d-bf09-4ecafb07aa9e
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 2765, y: 304}
+    AudioClip: {fileID: 8300000, guid: 2bb1138b6a3efca458199bb9d855748d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 7c38892c-e321-4fd0-b074-0bf17edb0b05
+    DialogueText: 'Ich denke ich brauche eine neue Brille. Ich brauche auch ein neues
+      ___. '
+    Position: {x: 3093, y: 189}
+    AudioClip: {fileID: 8300000, guid: 4cac3f376c6327d408a233611f7af372, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: dd699232-6ed0-43e0-8ab5-bcc898ce0b00
+    DialogueText: (Das ist richtig)
+    Position: {x: 4090, y: 127}
+    AudioClip: {fileID: 8300000, guid: ba15c94483a7eec4e9984fabba664b03, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 09a66842-7289-4aa2-a985-482f70044a63
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 4090, y: 328}
+    AudioClip: {fileID: 8300000, guid: 2bb1138b6a3efca458199bb9d855748d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 73dedd37-50ac-4b3f-9e80-700a50701e14
+    DialogueText: "Ich m\xF6chte auch Sport lehren."
+    Position: {x: 4389, y: 244}
+    AudioClip: {fileID: 8300000, guid: 154565bb903b31642aa45f14845eb39a, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 3119e66b-d15e-4e10-afec-2e53892b08c7
+    DialogueText: (Das ist richtig)
+    Position: {x: 5201, y: 236}
+    AudioClip: {fileID: 8300000, guid: ba15c94483a7eec4e9984fabba664b03, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c52957eb-3e58-4746-8307-5d292e98cf49
+    DialogueText: Ich liebe Volleyball und Golf.
+    Position: {x: 5527, y: 311}
+    AudioClip: {fileID: 8300000, guid: a0e93668dbcd3a84684737ab247e8a02, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 4fb05b9f-6297-4394-9b0a-e5ac1af939d7
+    DialogueText: 'Ich trainiere zweimal pro Woche, freitags und sonntags. '
+    Position: {x: 5928, y: 311}
+    AudioClip: {fileID: 8300000, guid: e96f9eaa811870440ae2c806763c8711, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 98a18d1f-358a-499e-b89e-938f6c74416d
+    DialogueText: "Es ist Zeit f\xFCr den Unterricht. Gehen Sie in Ihr Klassenzimmer. "
+    Position: {x: 6496, y: 311}
+    AudioClip: {fileID: 8300000, guid: 77c4aef70f33f3045b4782687a5ced8a, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 988d61b2-adef-47f4-96fd-ea8c91a5fcb4
+    DialogueText: Wissen Sie, wo mein __ist?
+    Position: {x: 1241, y: 217}
+    AudioClip: {fileID: 8300000, guid: 4a9d1bdaa35e55d489ae0c972070415b, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 7fd93636-67de-47f4-a0b3-75cfa06b6a33
+    DialogueText: 'Hallo, ich bin Lehrer. '
+    Position: {x: 200, y: 179}
+    AudioClip: {fileID: 8300000, guid: bc2eecd310da813468a8fc1dccdadec7, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 0ec86d40-3fc1-47f0-b64a-85a63e8fc185
+    DialogueText: '(Say that you do not know where it is.) '
+    Position: {x: 2343, y: 189}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 6eccc4e1-57dd-4278-b50c-cb7049298340
+    DialogueText: "(Say the correct word for \u201Cnotebook\u201D.) "
+    Position: {x: 3678, y: 189}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 4fd2d8ea-1e90-450c-a4ed-c9c73ed5c64c
+    DialogueText: "(Say the correct word for \u201Cbinder\u201D.) "
+    Position: {x: 1551, y: 217}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 1eed38da-6100-456d-9815-8577c33df267
+    DialogueText: Was? (unrecognized word for "binder")
+    Position: {x: 1533, y: 591}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: a92c3cc2-0fcd-43bc-91e7-f68e29d86abf
+    DialogueText: Was? (unrecognized sentence)
+    Position: {x: 2370, y: 538}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: e87aadb8-6d4d-4cab-b001-c693fde12af4
+    DialogueText: Was? (unrecognized word for "notebook")
+    Position: {x: 3678, y: 524}
+    AudioClip: {fileID: 8300000, guid: 682d276a9fd7a254fb14b16441c43ca5, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 01387313-d207-4288-803a-4a7fefcf9934
+    DialogueText: (Das ist nicht richtig)
+    Position: {x: 5201, y: 447}
+    AudioClip: {fileID: 8300000, guid: 2bb1138b6a3efca458199bb9d855748d, type: 3}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: 5c8e723a-c88a-46cf-ad5a-8ca622be2d94
+    DialogueText: "Was? (hint: \"F\xE4cher\" is subject)"
+    Position: {x: 528, y: 467}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
+  - NodeGUID: c618fbe1-1844-407c-b65b-e26bb8cc077a
+    DialogueText: '(Ask Johanna which subjects she teaches.) '
+    Position: {x: 482, y: 159}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 1
+  - NodeGUID: 1bf2a57a-a8cf-4966-9d12-d09a79eceb4a
+    DialogueText: 'Was? (hint: "Lieblingssport" is favourite sport)'
+    Position: {x: 4728, y: 542}
+    AudioClip: {fileID: 0}
+    allCorrect: 0
+    dialogueType: 0
